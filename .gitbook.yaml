@@ -1,12 +1,4 @@
-root: ./Curriculum
+root: ./
 structure:
-  summary: README.md
-  langs:
-    en:
-      title: Project Athena Curriculum
-      sections:
-        - title: Module 1 - Ethics and Legal
-          introduction: ./Module 1 - Ethics and Legal/introduction.md
-          articles:
-            - title: Ethics
-              path: ./Module 1 - Ethics and Legal/lectures/ethics.md
+  readme: README.md
+  summary: ./Curriculum/SUMMARY.md
