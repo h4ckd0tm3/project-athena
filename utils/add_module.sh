@@ -21,4 +21,4 @@ mkdir images
 
 # Create the README.md file for the module
 cd ../
-touch README.md
+touch introduction.md
