@@ -6,7 +6,7 @@ structure:
       title: Project Athena Curriculum
       sections:
         - title: Module 1 - Ethics and Legal
-          path: ./Module 1 - Ethics and Legal
-          sections:
+          introduction: ./Module 1 - Ethics and Legal/introduction.md
+          articles:
             - title: Ethics
               path: ./Module 1 - Ethics and Legal/lectures/ethics.md
