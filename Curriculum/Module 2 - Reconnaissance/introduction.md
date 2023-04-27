@@ -1,4 +1,4 @@
-# Module 3: Reconnaissance
+# Reconnaissance
 
 This module will focus on reconnaissance, which is the process of gathering information about a target in order to identify potential vulnerabilities and exploit them. Students will learn about various information gathering techniques, including network scanning with NMAP, enumeration, and open source intelligence (OSINT) gathering. The module will also cover social engineering, which is the use of psychological manipulation to obtain sensitive information, and the use of search engines such as Shodan and Google Dorks for reconnaissance purposes.
 

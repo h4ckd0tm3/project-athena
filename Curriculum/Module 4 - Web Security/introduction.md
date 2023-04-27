@@ -1,4 +1,4 @@
-# Module 2: Web Security
+# Web Security
 
 This module will focus on offensive web security, which involves identifying and exploiting vulnerabilities in web applications. Students will learn about the Open Web Application Security Project (OWASP) and its Top 10 list of the most critical web application security risks, as well as various tools and techniques for identifying and exploiting web application vulnerabilities.
 

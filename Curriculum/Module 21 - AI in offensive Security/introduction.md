@@ -1,4 +1,4 @@
-# Module 21: AI in Offensive Security
+# AI in Offensive Security
 
 This module will cover the emerging field of AI in offensive security. Students will learn how AI is being used to improve various attack methods and the challenges and opportunities associated with AI in offensive security.
 

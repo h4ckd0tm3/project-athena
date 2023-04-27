@@ -1,4 +1,4 @@
-# Module 14: Cryptography
+# Cryptography
 
 In this module, we will explore the fascinating world of cryptography. Students will learn about different encryption techniques, hashing, digital signatures, and public key infrastructure (PKI). We will also discuss common cryptographic attacks and how to defend against them.
 

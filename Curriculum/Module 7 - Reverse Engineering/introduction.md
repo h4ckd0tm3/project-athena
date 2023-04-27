@@ -1,4 +1,4 @@
-# Module 6: Reverse Engineering
+# Reverse Engineering
 
 This module will cover the basics of reverse engineering, with a focus on using the Ghidra tool to analyze and decompile binary files. Students will learn about the different types of reverse engineering, and how to identify and analyze key elements of software binaries, such as functions and control flow.
 

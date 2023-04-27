@@ -1,4 +1,4 @@
-# Module 8: Forensics
+# Forensics
 
 This module will cover the basics of digital forensics, including the tools and techniques used to investigate cybercrime and other digital incidents. Students will learn how to acquire and analyze digital evidence, and how to present their findings in a clear and concise manner.
 

@@ -1,4 +1,4 @@
-# Module 17: Blue Teaming
+# Blue Teaming
 
 This module will cover the principles and techniques of defensive security, also known as "Blue Teaming". Students will learn about different types of defensive security technologies and processes, such as firewalls, intrusion detection and prevention, incident response, and security information and event management (SIEM). 
 

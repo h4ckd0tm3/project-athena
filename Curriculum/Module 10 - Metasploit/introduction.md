@@ -1,4 +1,4 @@
-# Module 10: Metasploit
+# Metasploit
 
 This module will introduce students to Metasploit, one of the most popular exploitation frameworks used by penetration testers and hackers. Students will learn how to install, configure, and use Metasploit to carry out various attacks on vulnerable systems.
 

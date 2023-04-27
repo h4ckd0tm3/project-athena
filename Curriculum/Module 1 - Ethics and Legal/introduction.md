@@ -1,4 +1,4 @@
-# Module 1: Ethics and Legal
+# Ethics and Legal
 
 This module will cover the ethical and legal considerations that are central to IT security. Students will learn about hacker ethics, the legal framework that governs IT security in Austria and Germany, and the various ethical dilemmas that can arise in the field of IT security.
 
@@ -12,8 +12,8 @@ This module will cover the ethical and legal considerations that are central to 
 ## Topics Covered
 
 1. Hacker Ethics
-2. Legal Framework
-3. Cybercrime
-4. Ethical Dilemmas
+2. Ethical Dilemmas
+3. Legal Framework
+4. Cybercrime
 
 By the end of this module, students should have a solid foundation in the ethical and legal considerations that are central to IT security.

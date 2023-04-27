@@ -1,4 +1,4 @@
-# Module 13: Password Cracking
+# Password Cracking
 
 In this module, students will learn about password cracking techniques and tools used in penetration testing. They will learn how to crack passwords using different methods and tools, as well as understand the importance of strong passwords and password policies.
 

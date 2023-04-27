@@ -1,4 +1,4 @@
-# Module 5: Assembly
+# Assembly
 
 This module covers assembly language and how it is used in security. Students will learn how to read and write assembly code, and how to use it for reverse engineering and exploit development.
 ## Learning Objectives

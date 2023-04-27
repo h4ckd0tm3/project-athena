@@ -1,4 +1,4 @@
-# Module 18: Mobile Security
+# Mobile Security
 
 This module will cover the basics of mobile security, including common attack vectors for both Android and iOS devices. Students will learn about the architecture of mobile devices, how to assess the security of mobile apps, and techniques for reverse engineering mobile apps.
 

@@ -1,4 +1,4 @@
-# Module 4: Penetration Testing
+# Penetration Testing
 
 This module will introduce students to the practice of penetration testing, a critical component of offensive security. Students will learn about the penetration testing process, from initial scoping and reconnaissance, to vulnerability assessment and exploitation, to post-exploitation and reporting.
 

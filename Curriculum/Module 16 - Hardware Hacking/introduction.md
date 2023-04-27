@@ -1,4 +1,4 @@
-# Module 9: Hardware Hacking
+# Hardware Hacking
 
 This module will cover the basics of hardware hacking and explore various techniques for breaking into electronic devices. Students will learn about the hardware components and communication protocols that are commonly used in embedded systems, as well as the tools and techniques used for reverse engineering and exploiting them.
 

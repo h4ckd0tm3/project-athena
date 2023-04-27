@@ -1,4 +1,4 @@
-# Module 20: Wireless Security
+# Wireless Security
 
 This module will cover the fundamentals of wireless security, with a focus on WiFi. Students will learn about the architecture of wireless networks, the vulnerabilities and attack vectors present in WiFi networks, and the tools and techniques used for wireless penetration testing.
 

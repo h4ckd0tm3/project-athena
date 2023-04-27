@@ -1,4 +1,4 @@
-# Module 19: RATs and Rootkits
+# RATs and Rootkits
 
 This module will cover Remote Access Trojans (RATs) and Rootkits, which are tools commonly used by attackers to gain unauthorized access to systems and maintain their control over them. Students will learn about the features and functionalities of these tools, how they are used in real-world attacks, and the techniques and tools used to detect and defend against them.
 

@@ -1,4 +1,4 @@
-# Module 7: Hacking with Python
+# Hacking with Python
 
 This module will provide an introduction to using the Python programming language for offensive security. Students will learn how to write Python scripts to automate common security tasks, such as password cracking and vulnerability scanning. 
 

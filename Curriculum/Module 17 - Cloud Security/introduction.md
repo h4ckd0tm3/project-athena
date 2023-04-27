@@ -1,4 +1,4 @@
-# Module 16: Cloud Security
+# Cloud Security
 
 This module will provide an overview of cloud computing security and the best practices for securing cloud infrastructure. Students will learn about the shared responsibility model, risk management, identity and access management, and encryption in the cloud.
 
