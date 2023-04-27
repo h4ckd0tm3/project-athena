@@ -3,10 +3,10 @@
 
 ### Module 0 - Mindset
 * [Introduction](././Module%200%20-%20Mindset/introduction.md)
-  * Lectures
-    * [Introduction to the Offensive Security Mindset](././Module%200%20-%20Mindset/lectures/lecture_1_introduction.md)
-    * [Curiosity, Creativity, Persistence](././Module%200%20-%20Mindset/lectures/lecture_2_ccp.md)
-    * [Maintaining a Healthy Mindset](././Module%200%20-%20Mindset/lectures/lecture_3_mental_health.md)
+* Lectures
+  * [Introduction to the Offensive Security Mindset](././Module%200%20-%20Mindset/lectures/lecture_1_introduction.md)
+  * [Curiosity, Creativity, Persistence](././Module%200%20-%20Mindset/lectures/lecture_2_ccp.md)
+  * [Maintaining a Healthy Mindset](././Module%200%20-%20Mindset/lectures/lecture_3_mental_health.md)
 
 ### Module 1 - Ethics and Legal
 * [Introduction](././Module%201%20-%20Ethics%20and%20Legal/introduction.md)
