@@ -1,4 +1,4 @@
-## Maintaining a Healthy Mindset
+# Maintaining a Healthy Mindset
 
 While the Offensive Security Mindset is crucial for success in the cybersecurity field, it's equally important to maintain a healthy mindset to prevent burnout and ensure long-term success. Here are some tips on maintaining a healthy mindset in Offensive Security:
 
