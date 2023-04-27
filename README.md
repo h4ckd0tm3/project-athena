@@ -1,5 +1,7 @@
 # Project Athena
 
+![](athena_banner.jpg)
+
 Welcome to the Project Athena repository! This project aims to provide a comprehensive IT-Security curriculum for secondary colleges in engineering.
 
 ## Overview
