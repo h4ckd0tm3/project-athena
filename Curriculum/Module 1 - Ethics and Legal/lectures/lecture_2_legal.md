@@ -40,7 +40,7 @@
 ## Relevant Sections
 > **Disclaimer:** The names in the examples are not related to real individuals. 
 
-### Unauthorized Access to a Computer System (§118a StGB)
+### **Unauthorized Access to a Computer System (§118a StGB)**
 
 > **German:** Widerrechtlicher Zugriff auf ein Computersystem
 
@@ -71,7 +71,7 @@ Unauthorized access is defined as intentionally accessing a computer system or a
 
 
 
-#### **Example Case 1: Unauthorized Access to a Computer System (§118a StGB)**
+### Example Case 1: Unauthorized Access to a Computer System (§118a StGB)
 
 **Background:**
 Lukas, a university student in Salzburg, always had a penchant for technology and hacking. Over casual conversations, he learned that his friend, Elena, was dating someone new. Curious and somewhat envious, Lukas wanted to know more about this individual, especially since Elena was always tight-lipped about her personal life.
@@ -91,7 +91,7 @@ Lukas's actions were in direct violation of § 118a StGB. Specifically:
 Regardless of his motivations, Lukas could face prosecution under Austrian law for unauthorized access to a computer system and infringing on personal privacy.
 
 
-#### **Example Case 2: Unauthorized Access to a Computer System (§118a StGB)**
+### Example Case 2: Unauthorized Access to a Computer System (§118a StGB)
 
 **Background:**
 Julia, a software engineer at a tech company in Vienna, had recently received negative feedback on her project from a colleague, Adrian. Feeling unfairly judged and seeking revenge, she decided to target Adrian's computer system to tarnish his reputation.
@@ -132,7 +132,7 @@ The act pertains to the unauthorized intent to acquire knowledge of a message's 
 - Individuals found guilty can face up to **six months** in prison or a fine of up to **360 daily rates**.
 - Prosecution of the perpetrator can only proceed with the authorization of the victim.
 
-#### **Example Case: Violation of Telecommunication Secrecy (§ 119 StGB)**
+### Example Case: Violation of Telecommunication Secrecy (§ 119 StGB)
 
 **Background:**
 In a mid-sized company in Vienna, Alicia, an employee in the IT department, became suspicious of certain executive decisions that seemed to favor a competitor. Believing there might be some shady dealings going on behind closed doors, she decided to take matters into her own hands to uncover any potential wrongdoing.
@@ -150,7 +150,8 @@ Alicia's actions were a direct violation of § 119 StGB as she had:
 
 While her suspicions might have stemmed from genuine concern, her method of gathering information was illegal and a breach of privacy. Thus, she could be prosecuted under Austrian law for violating telecommunication secrecy.
 
-### Misuse of Intercepted Data (§ 119a StGB)
+---
+### **Misuse of Intercepted Data (§ 119a StGB)**
 
 > **German:** Missbräuchliches Abfangen von Daten
 
@@ -172,7 +173,7 @@ This act pertains to the unauthorized acquisition of knowledge from data, transm
 - Offenders can face up to **six months** in prison or a fine of up to **360 daily rates**.
 - Prosecution can only proceed with the authorization of the victim.
 
-#### **Example Case for Unauthorized Interception of Data (§ 119a StGB)**
+### Example Case for Unauthorized Interception of Data (§ 119a StGB)
 
 **Background:**
 Anna, a junior IT specialist at a prominent tech company, discovered a loophole in the office's internal communication system. Intrigued by the potential knowledge she could gain and possibly wanting to expose some internal company secrets to a competitor for financial gain, she decided to exploit this vulnerability.
@@ -190,6 +191,7 @@ Anna's actions are in direct violation of § 119a StGB as she had:
 
 By sharing the intercepted data with competitors for personal profit, Anna infringed upon the company's rights and can be prosecuted under Austrian law for illicitly intercepting data.
 
+---
 ### **Misuse of Audio Recording or Eavesdropping Devices (§ 120 StGB)**
 
 > **German:** Mißbrauch von Tonaufnahme- oder Abhörgeräten
@@ -221,7 +223,7 @@ This provision deals with the misuse of audio recording or eavesdropping devices
 
 - Prosecution can only proceed with the authorization of the victim.
 
-### **Example Case for Misuse of Audio Recording or Eavesdropping Devices (§ 120 StGB)**
+### Example Case for Misuse of Audio Recording or Eavesdropping Devices (§ 120 StGB)
 
 #### **Background:**
 Julia is a journalist trying to break into the competitive world of investigative journalism. She believes that a particular politician has been involved in questionable deals and wants to gather evidence to support her story.
@@ -239,7 +241,7 @@ Julia's actions are a direct breach of § 120 StGB as she:
 
 Even though Julia believed she was acting in the public interest, her methods of gathering evidence were illegal. She could face penalties under Austrian law for her unauthorized recording and dissemination of private conversations.
 
-
+---
 ### **Data Tampering (§ 126a StGB)**
 
 > **German:** Datenbeschädigung
@@ -269,7 +271,7 @@ This provision deals with the intentional damage or alteration of computer data,
 
 - **Major Violations:** Acts causing damage exceeding **300,000 Euro**, affecting crucial parts of the critical infrastructure, or committed as a part of a criminal organization can result in a prison term ranging from **six months to five years**.
 
-### **Example Case for Data Tampering (§ 126a StGB)**
+### Example Case for Data Tampering (§ 126a StGB)
 
 #### **Background:**
 Lukas, an employee at a bank, becomes disgruntled after being passed over for a promotion. Believing he has been unfairly treated and wanting to get back at his employer, he contemplates exploiting his IT privileges.
@@ -287,6 +289,7 @@ Lukas's actions are in direct violation of § 126a StGB as he:
 
 Given the substantial financial loss to the bank and its customers due to Lukas's actions, he can be prosecuted under Austrian law for tampering with data and causing financial damage.
 
+---
 ### **Disruption of Computer System Functionality (§ 126b StGB)**
 
 > **German:** Störung der Funktionsfähigkeit eines Computersystems
@@ -316,7 +319,7 @@ This provision addresses the significant disruption of the functionality of a co
 
 - **Major Violations:** Acts causing damage exceeding **300,000 Euro**, targeting systems that are a core component of the critical infrastructure, or committed as a part of a criminal organization can result in a prison term ranging from **six months to five years**.
 
-### **Example Case for Disruption of Computer System Functionality (§ 126b StGB)**
+### Example Case for Disruption of Computer System Functionality (§ 126b StGB)
 
 #### **Background:**
 Eva, a talented but disgruntled software developer, is unhappy with her company's new policies. In her displeasure, she decides to design a script that would disrupt the company's primary web service, hoping to create chaos and express her dissatisfaction.
@@ -334,6 +337,7 @@ Eva's actions are in direct violation of § 126b StGB as she:
 
 Considering the potential financial and reputational loss for the company due to the disruption, Eva can be prosecuted under Austrian law for her deliberate actions against the computer system's functionality.
 
+---
 ### **Misuse of Computer Programs or Access Data (§ 126c StGB)**
 
 > **German:** Missbrauch von Computerprogrammen oder Zugangsdaten
@@ -372,7 +376,7 @@ To use the mentioned tools or data in committing specific computer-related offen
 
 - **Critical Infrastructure:** For acts concerning tools or data capable of affecting essential parts of the critical infrastructure (§ 74 Abs. 1 Z 11) – up to **three years** in prison.
 
-### **Example Case for Misuse of Computer Programs or Access Data (§ 126c StGB)**
+### Example Case for Misuse of Computer Programs or Access Data (§ 126c StGB)
 
 #### **Background:**
 Lukas, an independent software developer, stumbles upon a powerful hacking tool on the dark web. Seeing an opportunity for personal financial gain, he decides to acquire and use this tool to gain unauthorized access to various online platforms, including e-commerce websites.
@@ -390,6 +394,7 @@ Lukas's actions are in direct violation of § 126c StGB as he:
 
 Given the severity of his actions, Lukas can face prosecution under Austrian law for misuse of computer programs and access data, endangering personal and financial security of numerous individuals.
 
+---
 ### **Fraudulent Misuse of Data Processing (§ 148a StGB)**
 
 > **German:** Betrügerischer Datenverarbeitungsmißbrauch
@@ -423,7 +428,7 @@ This section criminalizes the act of intentionally influencing the result of an 
 
 This section delineates the legal consequences for various forms of fraudulent misuse of data processing and ties into related offenses and penalties specified in other sections, like the misuse of computer programs (§ 126c StGB) and system disruptions (§ 126b StGB).
 
-### **Example Case for Fraudulent Misuse of Data Processing (§ 148a StGB)**
+### Example Case for Fraudulent Misuse of Data Processing (§ 148a StGB)
 
 #### **Background:**
 Eva, an accountant at a well-established corporation, realizes the potential of manipulating the company's financial data to redirect funds to her personal account. Having knowledge of the company's financial software and inspired by her personal financial needs, she decides to manipulate the automated payment system.
@@ -441,6 +446,7 @@ Eva's actions are in direct violation of § 148a StGB as she:
 
 By tampering with the data processing system for personal gain, Eva has committed fraudulent misuse of data processing and can be prosecuted under Austrian law.
 
+---
 ### **Unauthorized Access to Data of a Non-Cash Payment Method (§ 241h StGB)**
 
 > **German:** Ausspähen von Daten eines unbaren Zahlungsmittels
@@ -470,7 +476,7 @@ This provision criminalizes the act of accessing or 'spying' on non-cash payment
 
 This section elucidates the legal implications of unauthorized access to data associated with non-cash payment methods and ties into related offenses specified in other sections, such as the forgery of non-cash payment methods (§ 241a StGB).
 
-### **Example Case for Unauthorized Access to Data of a Non-Cash Payment Method (§ 241h StGB)**
+### Example Case for Unauthorized Access to Data of a Non-Cash Payment Method (§ 241h StGB)
 
 #### **Background:**
 Lucas is a tech-savvy individual who frequents local coffee shops. He notices that many patrons use their credit cards for payments. Knowing about vulnerabilities in certain point-of-sale (POS) systems, Lucas hatches a plan to exploit these weaknesses.
