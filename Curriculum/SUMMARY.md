@@ -4,12 +4,16 @@
 ### Module 0 - Mindset
 * [Introduction](././Module%200%20-%20Mindset/introduction.md)
 * Lectures
-  * [Introduction to the Offensive Security Mindset](././Module%200%20-%20Mindset/lectures/lecture_1_introduction.md)
-  * [Curiosity, Creativity, Persistence](././Module%200%20-%20Mindset/lectures/lecture_2_ccp.md)
-  * [Maintaining a Healthy Mindset](././Module%200%20-%20Mindset/lectures/lecture_3_mental_health.md)
+  * [Introduction to the Offensive Security Mindset](././Module%200%20-%20Mindset/lectures/lecture_1_introduction.md)
+  * [Curiosity, Creativity, Persistence](././Module%200%20-%20Mindset/lectures/lecture_2_ccp.md)
+  * [Maintaining a Healthy Mindset](././Module%200%20-%20Mindset/lectures/lecture_3_mental_health.md)
 
 ### Module 1 - Ethics and Legal
 * [Introduction](././Module%201%20-%20Ethics%20and%20Legal/introduction.md)
+* Lectures
+  * [Hacker Ethics](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_1_ethics.md)
+  * [Legal Framework](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_2_legal.md)
+  * [Legal Framework in Germany](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_2a_legal_germany.md)
 
 ### Module 2 - Reconnaissance
 * [Introduction](././Module%202%20-%20Reconnaissance/introduction.md)
