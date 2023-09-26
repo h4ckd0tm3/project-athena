@@ -4,19 +4,25 @@
 ### Module 0 - Mindset
 * [Introduction](././Module%200%20-%20Mindset/introduction.md)
 * Lectures
-  * [Introduction to the Offensive Security Mindset](././Module%200%20-%20Mindset/lectures/lecture_1_introduction.md)
-  * [Curiosity, Creativity, Persistence](././Module%200%20-%20Mindset/lectures/lecture_2_ccp.md)
-  * [Maintaining a Healthy Mindset](././Module%200%20-%20Mindset/lectures/lecture_3_mental_health.md)
+  * [Introduction to the Offensive Security Mindset](././Module%200%20-%20Mindset/lectures/lecture_1_introduction.md)
+  * [Curiosity, Creativity, Persistence](././Module%200%20-%20Mindset/lectures/lecture_2_ccp.md)
+  * [Maintaining a Healthy Mindset](././Module%200%20-%20Mindset/lectures/lecture_3_mental_health.md)
 
 ### Module 1 - Ethics and Legal
 * [Introduction](././Module%201%20-%20Ethics%20and%20Legal/introduction.md)
 * Lectures
-  * [Hacker Ethics](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_1_ethics.md)
-  * [Legal Framework](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_2_legal.md)
-  * [Legal Framework in Germany](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_2a_legal_germany.md)
+  * [Hacker Ethics](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_1_ethics.md)
+  * [Legal Framework](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_2_legal.md)
+  * [Legal Framework in Germany](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_2a_legal_germany.md)
 
 ### Module 2 - Reconnaissance
 * [Introduction](././Module%202%20-%20Reconnaissance/introduction.md)
+* Lectures
+  * [Introduction to Reconnaissance](././Module%202%20-%20Reconnaissance/lectures/lecture_1_introduction.md)
+  * [Information Gathering](././Module%202%20-%20Reconnaissance/lectures/lecture_2_information_gathering.md)
+  * [Open Source Intelligence (OSINT)](././Module%202%20-%20Reconnaissance/lectures/lecture_3_OSINT.md)
+  * [Social Engineering](././Module%202%20-%20Reconnaissance/lectures/lecture_4_social_engineering.md)
+  * [Search Engines for Reconnaissance](././Module%202%20-%20Reconnaissance/lectures/lecture_5_search_engines.md)
 
 ### Module 3 - Penetration Testing
 * [Introduction](././Module%203%20-%20Penetration%20Testing/introduction.md)
