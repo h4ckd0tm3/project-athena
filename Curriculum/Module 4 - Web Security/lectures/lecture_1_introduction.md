@@ -50,6 +50,39 @@ Responses consist of the following elements:
 * HTTP headers, like those for requests.
 Optionally, a body containing the fetched resource.
 
+## Session Handling
+
+Web applications often require a way to track users' interactions across multiple requests. This is where session handling comes into play. Given that HTTP is inherently stateless, sessions provide a mechanism to maintain state across various HTTP requests.
+
+
+### HTTP's Stateless Nature
+
+- HTTP, the protocol powering the World Wide Web, is inherently stateless.
+- This means that each request from a client to a server is treated as an isolated event, with no memory of past requests.
+- While this design has its advantages in scalability, it poses challenges when we need to maintain user-specific states, like shopping cart contents or user login status.
+
+### Cookies to the Rescue
+
+- Cookies are the primary method used to introduce state into the stateless HTTP protocol.
+- A cookie is a small piece of data, typically in the form of key-value pairs, that a server sends to a client's web browser.
+- The browser then stores this cookie and sends it back with every subsequent request to the same server.
+- This allows the server to recognize the client and maintain stateful information about the user's session.
+
+### Session IDs
+
+- In the context of session handling, a unique identifier, often referred to as a "session ID," is sent to the client.
+- This session ID is typically stored as a cookie in the client's browser.
+- When the client makes subsequent requests to the server, it sends the session ID cookie along with the request.
+- The server uses this session ID to retrieve session-specific data, such as user preferences or shopping cart contents.
+
+### Security Implications
+
+- Gaining access to a user's cookies, especially the session ID, can potentially allow an attacker to hijack the user's session.
+- This is known as "session hijacking" and can lead to unauthorized access to a user's account or sensitive data.
+- It's crucial to secure session cookies, often by:
+  - Using the `Secure` attribute to ensure the cookie is only transmitted over HTTPS.
+  - Using the `HttpOnly` attribute to prevent client-side scripts from accessing the cookie.
+
 # Resources 
 1. https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/http_basics.html
 2. https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
