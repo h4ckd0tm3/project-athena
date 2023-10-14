@@ -12,11 +12,11 @@ This module will introduce students to the practice of penetration testing, a cr
 ## Topics Covered
 
 1. Introduction to Penetration Testing
-2. Scoping and Reconnaissance
-3. Vulnerability Assessment
-4. Exploitation and Post-Exploitation
-5. Reporting
+1. Scoping and Reconnaissance
+1. Vulnerability Assessment
+1. Exploitation and Post-Exploitation
+1. Reporting
 
 In addition, students will have the opportunity to gain hands-on experience with penetration testing tools and techniques through the HackTheBox platform, and will hear from a real-world penetration tester about their experiences in the field.
 
-By the end of this module, students should have a solid understanding of the penetration testing process and be able to conduct basic penetration tests against target systems or networks. 
+By the end of this module, students should have a solid understanding of the penetration testing process and be able to conduct basic penetration tests against target systems or networks.

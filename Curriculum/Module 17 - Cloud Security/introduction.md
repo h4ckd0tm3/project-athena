@@ -12,9 +12,9 @@ This module will provide an overview of cloud computing security and the best pr
 ## Topics Covered
 
 1. Overview of Cloud Security
-2. Risk Management
-3. Identity and Access Management
-4. Encryption and Key Management
-5. Secure DevOps
+1. Risk Management
+1. Identity and Access Management
+1. Encryption and Key Management
+1. Secure DevOps
 
 By the end of this module, students should be able to apply cloud security best practices to protect cloud infrastructure and data.

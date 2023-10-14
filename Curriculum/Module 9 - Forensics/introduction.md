@@ -12,8 +12,8 @@ This module will cover the basics of digital forensics, including the tools and 
 ## Topics Covered
 
 1. Introduction to Digital Forensics
-2. Digital Evidence Acquisition
-3. Analysis of Digital Evidence
-4. Presenting Digital Evidence
+1. Digital Evidence Acquisition
+1. Analysis of Digital Evidence
+1. Presenting Digital Evidence
 
 By the end of this module, students should have a basic understanding of digital forensics and be able to apply the techniques they have learned to investigate a range of digital incidents.

@@ -13,8 +13,8 @@
 ### How to Use Shodan for Reconnaissance
 
 1. Basic search queries for finding specific types of devices.
-2. Filter search results for precise information gathering.
-3. Analyzing Shodan results to identify vulnerabilities.
+1. Filter search results for precise information gathering.
+1. Analyzing Shodan results to identify vulnerabilities.
 
 ## Google Dorks
 
@@ -26,7 +26,7 @@
 ### How to Use Google Dorks for Reconnaissance
 
 1. Syntax and operators for advanced Google searching.
-2. Examples of Google Dorks for finding sensitive information.
+1. Examples of Google Dorks for finding sensitive information.
 
 ## Ethical Considerations
 
