@@ -12,8 +12,8 @@ This module will cover the basics of reverse engineering, with a focus on using 
 ## Topics Covered
 
 1. Introduction to Reverse Engineering
-2. Different Types of Reverse Engineering
-3. Analyzing Software Binaries
-4. Basic Reverse Engineering Tasks
+1. Different Types of Reverse Engineering
+1. Analyzing Software Binaries
+1. Basic Reverse Engineering Tasks
 
 By the end of this module, students should have a solid understanding of the basics of reverse engineering, and be able to conduct basic reverse engineering tasks.
