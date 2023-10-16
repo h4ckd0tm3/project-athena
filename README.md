@@ -38,6 +38,10 @@ We welcome contributions to the Project Athena curriculum! If you notice a mista
 
 If you would like to contribute content, please fork the repository, create a new branch, and submit a pull request with your changes.
 
+Current Contributors:
+
+[ ![contributors-img](https://contrib.rocks/image?repo=h4ckd0tm3/project-athena) ](https://github.com/h4ckd0tm3/project-athena/graphs/contributors)
+
 ## License
 
 The Project Athena curriculum is open-source and is released under the CC-BY-4.0. See the LICENSE file for more information.
