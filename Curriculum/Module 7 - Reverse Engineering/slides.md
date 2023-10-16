@@ -325,6 +325,7 @@ Done by https://defuse.ca/online-x86-assembler.htm#disassembly
 ---
 
 ![bg contain](./figures/bindiff.png)
+[2]
 
 ---
 
@@ -426,3 +427,4 @@ https://defuse.ca/online-x86-assembler.htm#disassembly
 https://ctf101.org/
 
 [1]: https://ctf101.org/reverse-engineering/what-is-assembly-machine-code/
+[2]: https://twitter.com/AdmVonSchneider/status/966297909909172224
