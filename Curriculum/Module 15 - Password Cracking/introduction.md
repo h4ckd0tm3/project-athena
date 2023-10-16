@@ -12,8 +12,8 @@ In this module, students will learn about password cracking techniques and tools
 ## Topics Covered
 
 1. Password Cracking Basics
-2. Password Cracking Tools
-3. Password Cracking Techniques
-4. Password Policies and Best Practices
+1. Password Cracking Tools
+1. Password Cracking Techniques
+1. Password Policies and Best Practices
 
 By the end of this module, students should be able to identify weak passwords, understand the importance of strong passwords and password policies, and apply password cracking techniques in

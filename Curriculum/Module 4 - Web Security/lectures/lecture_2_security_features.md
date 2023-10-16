@@ -25,16 +25,15 @@ http://normal-website.com/example/example.html
 This uses the scheme http, the domain `normal-website.com`, and the port number `80`. The following table shows how the same-origin policy will be applied if content at the above URL tries to access other origins:
 
 | **URL accessed**                        | **Access permitted?**              |
-|-----------------------------------------|------------------------------------|
+| --------------------------------------- | ---------------------------------- |
 | http://normal-website.com/example/      | Yes: same scheme, domain, and port |
 | http://normal-website.com/example2/     | Yes: same scheme, domain, and port |
 | https://normal-website.com/example/     | No: different scheme and port      |
 | http://en.normal-website.com/example/   | No: different domain               |
 | http://www.normal-website.com/example/  | No: different domain               |
-| http://normal-website.com:8080/example/ | No: different port*                |
+| http://normal-website.com:8080/example/ | No: different port\*               |
 
-> *Internet Explorer will allow this access because IE does not take account of the port number when applying the same-origin policy.
-
+> \*Internet Explorer will allow this access because IE does not take account of the port number when applying the same-origin policy.
 
 ### Policy Details
 
@@ -59,13 +58,13 @@ The same-origin policy generally controls the access that JavaScript code has to
 
 There are various exceptions to the same-origin policy:
 
-* Some objects are writable but not readable cross-domain, such as the `location` object or the `location.href` property from iframes or new windows.
+- Some objects are writable but not readable cross-domain, such as the `location` object or the `location.href` property from iframes or new windows.
 
-* Some objects are readable but not writable cross-domain, such as the `length` property of the `window` object (which stores the number of frames being used on the page) and the `closed` property.
+- Some objects are readable but not writable cross-domain, such as the `length` property of the `window` object (which stores the number of frames being used on the page) and the `closed` property.
 
-* The `replace` function can generally be called cross-domain on the `location` object.
+- The `replace` function can generally be called cross-domain on the `location` object.
 
-* You can call certain functions cross-domain. For example, you can call the functions `close`, `blur` and `focus` on a new window. The `postMessage` function can also be called on iframes and new windows in order to send messages from one domain to another.
+- You can call certain functions cross-domain. For example, you can call the functions `close`, `blur` and `focus` on a new window. The `postMessage` function can also be called on iframes and new windows in order to send messages from one domain to another.
 
 Due to legacy requirements, the same-origin policy is more relaxed when dealing with cookies, so they are often accessible from all subdomains of a site even though each subdomain is technically a different origin. You can partially mitigate this risk using the `HttpOnly` cookie flag.
 
@@ -108,7 +107,8 @@ A policy is made up of directives that set rules for various resource types. It'
 For examples and more information see: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP#examples_common_use_cases
 
 # Resources
+
 1. https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
-2. https://portswigger.net/web-security/cors/same-origin-policy
-3. https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
-4. https://portswigger.net/web-security/cross-site-scripting/content-security-policy
+1. https://portswigger.net/web-security/cors/same-origin-policy
+1. https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+1. https://portswigger.net/web-security/cross-site-scripting/content-security-policy

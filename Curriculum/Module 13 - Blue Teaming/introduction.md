@@ -1,6 +1,6 @@
 # Blue Teaming
 
-This module will cover the principles and techniques of defensive security, also known as "Blue Teaming". Students will learn about different types of defensive security technologies and processes, such as firewalls, intrusion detection and prevention, incident response, and security information and event management (SIEM). 
+This module will cover the principles and techniques of defensive security, also known as "Blue Teaming". Students will learn about different types of defensive security technologies and processes, such as firewalls, intrusion detection and prevention, incident response, and security information and event management (SIEM).
 
 ## Learning Objectives
 
@@ -13,9 +13,9 @@ This module will cover the principles and techniques of defensive security, also
 ## Topics Covered
 
 1. Defensive Security Overview
-2. Firewalls
-3. Intrusion Detection and Prevention
-4. Incident Response
-5. Security Information and Event Management (SIEM)
+1. Firewalls
+1. Intrusion Detection and Prevention
+1. Incident Response
+1. Security Information and Event Management (SIEM)
 
-By the end of this module, students should have a solid understanding of the principles and techniques of defensive security and be able to identify and implement different defensive security technologies and processes. 
+By the end of this module, students should have a solid understanding of the principles and techniques of defensive security and be able to identify and implement different defensive security technologies and processes.

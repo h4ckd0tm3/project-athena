@@ -6,9 +6,9 @@
 ## Types of Social Engineering Attacks
 
 1. **Phishing**: Deceptive attempts to acquire sensitive information by pretending to be a trustworthy entity.
-2. **Pretexting**: Creating a fabricated scenario to obtain information from a targeted individual.
-3. **Baiting**: Offering something enticing to an end user in exchange for private data.
-4. **Tailgating**: Gaining unauthorized access to a building or system by following an authenticated user.
+1. **Pretexting**: Creating a fabricated scenario to obtain information from a targeted individual.
+1. **Baiting**: Offering something enticing to an end user in exchange for private data.
+1. **Tailgating**: Gaining unauthorized access to a building or system by following an authenticated user.
 
 ## Psychological Principles Used in Social Engineering
 

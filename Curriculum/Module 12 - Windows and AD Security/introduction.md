@@ -12,15 +12,15 @@ This module will cover Windows and Active Directory (AD) security. Students will
 ## Topics Covered
 
 1. Introduction to Windows Security
-2. Windows Security Features
-3. Windows Penetration Testing
-    - Impacket
-    - Kerberos
-    - BloodHound
-    - Local Privesc
-    - Lolbins
-4. Introduction to Active Directory
-5. Active Directory Security Features
-6. Active Directory Penetration Testing
+1. Windows Security Features
+1. Windows Penetration Testing
+   - Impacket
+   - Kerberos
+   - BloodHound
+   - Local Privesc
+   - Lolbins
+1. Introduction to Active Directory
+1. Active Directory Security Features
+1. Active Directory Penetration Testing
 
 By the end of this module, students should have a solid understanding of Windows and AD security and be able to perform penetration testing and security assessments on these environments.

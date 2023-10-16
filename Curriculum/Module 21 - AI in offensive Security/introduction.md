@@ -12,10 +12,10 @@ This module will cover the emerging field of AI in offensive security. Students 
 ## Topics Covered
 
 1. Introduction to AI in Offensive Security
-2. AI-Enhanced Malware
-3. AI in Social Engineering
-4. AI-Assisted Vulnerability Scanning
-5. AI in Penetration Testing
-6. Defending Against AI-Enhanced Attacks
+1. AI-Enhanced Malware
+1. AI in Social Engineering
+1. AI-Assisted Vulnerability Scanning
+1. AI in Penetration Testing
+1. Defending Against AI-Enhanced Attacks
 
 By the end of this module, students should have a solid understanding of the role of AI in offensive security and be able to evaluate and defend against AI-enhanced attacks.

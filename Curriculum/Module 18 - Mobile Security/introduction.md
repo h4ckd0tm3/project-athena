@@ -12,10 +12,10 @@ This module will cover the basics of mobile security, including common attack ve
 ## Topics Covered
 
 1. Introduction to Mobile Security
-2. Mobile Device Architecture
-3. Android Security
-4. iOS Security
-5. Mobile App Security
-6. Reverse Engineering Mobile Apps
+1. Mobile Device Architecture
+1. Android Security
+1. iOS Security
+1. Mobile App Security
+1. Reverse Engineering Mobile Apps
 
 By the end of this module, students should have a solid understanding of the basics of mobile security and be able to identify and exploit common vulnerabilities in both Android and iOS devices and mobile apps.

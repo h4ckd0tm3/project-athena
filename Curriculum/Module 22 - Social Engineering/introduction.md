@@ -12,10 +12,10 @@ This module will cover the principles and techniques of social engineering, whic
 ## Topics Covered
 
 1. Introduction to Social Engineering
-2. Types of Social Engineering Attacks
-3. Stages of a Social Engineering Attack
-4. Psychological Principles behind Social Engineering
-5. Tools and Techniques for Social Engineering
-6. Prevention and Defense against Social Engineering Attacks
+1. Types of Social Engineering Attacks
+1. Stages of a Social Engineering Attack
+1. Psychological Principles behind Social Engineering
+1. Tools and Techniques for Social Engineering
+1. Prevention and Defense against Social Engineering Attacks
 
 By the end of this module, students should have a solid understanding of social engineering principles and techniques, be able to identify different types of social engineering attacks, and develop strategies to prevent and defend against social engineering attacks.

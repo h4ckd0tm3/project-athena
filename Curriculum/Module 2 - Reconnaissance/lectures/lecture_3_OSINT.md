@@ -9,16 +9,16 @@
 ## Types of OSINT
 
 1. **Personal OSINT**: Gathering information about individuals.
-2. **Organizational OSINT**: Information related to organizations or businesses.
-3. **Technical OSINT**: Information about networks, domains, and technical infrastructure.
-4. **Geospatial OSINT**: Information related to physical locations and events.
+1. **Organizational OSINT**: Information related to organizations or businesses.
+1. **Technical OSINT**: Information about networks, domains, and technical infrastructure.
+1. **Geospatial OSINT**: Information related to physical locations and events.
 
 ## Tools for Collecting OSINT
 
 1. **Search Engines**: Google, Bing, and specialized search engines.
-2. **Social Media Monitoring Tools**: Tools that scrape social media platforms for specific information.
-3. **Public Records Databases**: Online databases of public records.
-4. **Domain and IP Tools**: Tools like WHOIS and DNS lookup.
+1. **Social Media Monitoring Tools**: Tools that scrape social media platforms for specific information.
+1. **Public Records Databases**: Online databases of public records.
+1. **Domain and IP Tools**: Tools like WHOIS and DNS lookup.
 
 ### Hands-on Exercise
 
@@ -35,6 +35,6 @@
 
 1. **Books**:
    - “Open Source Intelligence Techniques: Resources for Searching and Analyzing Online Information” by Michael Bazzell.
-2. **Websites**:
+1. **Websites**:
    - [OSINT Framework](https://osintframework.com/)
    - [Bellingcat's Online Investigation Toolkit](https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/edit)

@@ -16,9 +16,9 @@ NMAP is a powerful open-source tool used for network discovery and security audi
 ### Basic NMAP Commands
 
 1. **Ping Scan**: `nmap -sn [target]`
-2. **Port Scan**: `nmap [target]`
-3. **Service Version Detection**: `nmap -sV [target]`
-4. **Aggressive Scan**: `nmap -A [target]`
+1. **Port Scan**: `nmap [target]`
+1. **Service Version Detection**: `nmap -sV [target]`
+1. **Aggressive Scan**: `nmap -A [target]`
 
 ### Hands-on Exercise
 
@@ -39,15 +39,14 @@ Enumeration is the process of extracting detailed information about a network or
 ### Tools for Enumeration
 
 1. **Enum4linux**
-2. **Nbtscan**
-3. **SNMPwalk**
+1. **Nbtscan**
+1. **SNMPwalk**
 
 ## Resources
 
 1. **NMAP Official Documentation**: [NMAP Documentation](https://nmap.org/book/man.html)
-2. **Books**: “Nmap Network Scanning: The Official Nmap Project Guide to Network Discovery and Security Scanning” by Gordon Fyodor Lyon.
-3. **Enumeration Tools Documentation**:
+1. **Books**: “Nmap Network Scanning: The Official Nmap Project Guide to Network Discovery and Security Scanning” by Gordon Fyodor Lyon.
+1. **Enumeration Tools Documentation**:
    - Enum4linux: [Github Repository](https://github.com/portcullislabs/enum4linux)
    - Nbtscan: Information available on various cybersecurity websites.
    - SNMPwalk: Included in the NET-SNMP suite (http://www.net-snmp.org/)
-
