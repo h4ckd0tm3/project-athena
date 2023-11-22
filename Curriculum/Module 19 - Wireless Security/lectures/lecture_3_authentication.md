@@ -183,6 +183,9 @@ WPA3 is the latest generation of WiFi security, introduced to address the vulner
 - **Resistance to Common Attacks:** WPA3 addresses the vulnerabilities of WPA2, including those exposed by the KRACK (Key Reinstallation Attack) and makes it much more difficult to crack passwords.
 - **Improved Public Network Security:** The use of OWE in open networks provides encrypted communication even on networks that do not use passwords, which is a significant step forward in public WiFi security.
 
+## 3.4 Conclusion
+In conclusion, this lecture thoroughly examines the critical components of securing wireless networks. From exploring foundational authentication methods like OSA and SKA to advanced standards like WPA3, this lecture highlights the evolution and importance of robust security protocols in the wireless domain. It emphasizes that effective WiFi security is an essential blend of strong encryption techniques and sophisticated authentication strategies, ensuring the protection of data and network integrity in our interconnected world.
+
 ## Sources
 - [https://en.wikipedia.org/wiki/IEEE_802.11](https://en.wikipedia.org/wiki/IEEE_802.11)
 - [https://en.wikipedia.org/wiki/Wireless_LAN](https://en.wikipedia.org/wiki/Wireless_LAN)

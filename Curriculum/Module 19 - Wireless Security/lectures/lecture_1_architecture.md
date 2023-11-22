@@ -130,6 +130,9 @@ This process involves several steps for a device to connect to a WLAN.
   - To connect, the client device must be configured with the SSID beforehand. 
   - This method is less visible to casual observers but does not significantly increase security, as the SSID can still be intercepted from other frames.
 
+## 1.6 Conclusion
+In conclusion, this lecture provides a comprehensive understanding of the various aspects and technologies that constitute modern wireless networking. From exploring different types of wireless networks, such as WPAN, WLAN, WMAN, and WWAN, to delving into the specifics of WLAN operation and security, this lecture offers crucial insights into the design, functionality, and protection of wireless networks. The knowledge imparted is essential for anyone looking to navigate or secure the increasingly wireless landscape of digital communication.
+
 ## Sources
 - [https://en.wikipedia.org/wiki/IEEE_802.11](https://en.wikipedia.org/wiki/IEEE_802.11)
 - [https://en.wikipedia.org/wiki/Wireless_LAN](https://en.wikipedia.org/wiki/Wireless_LAN)
