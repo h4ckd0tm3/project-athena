@@ -1,48 +1,36 @@
 # 2. WiFi Security Fundamentals
 
 ## 2.1 Introduction
-In today's digital age, where wireless networks are ubiquitous, understanding the principles of WiFi security is not just a technical necessity but a critical skill for protecting data and maintaining privacy.
+In our digital age, WiFi networks are ubiquitous, serving as the gateway to the internet for both personal and professional use. However, this convenience also brings vulnerability. This lecture aims to guide you through the essential steps and best practices to secure your WiFi network effectively.
 
-## 2.2 Common Threats
-### 2.2.1 Passive Attacks
-Passive attacks in the context of wireless security are a type of cyberattack where the attacker intercepts data transmitted over a wireless network without altering it or sending data back. These attacks are particularly insidious because they can be difficult to detect.
+## 2.2 Security Risks
+- **Unauthorized Access:** Unauthorized access occurs when individuals who are not authorized to use a WiFi network gain access to it.
+- **Data Theft:** Data theft refers to the unauthorized retrieval of data transmitted over the network. It can be particularly damaging if sensitive information is intercepted.
+- **Network Attacks:** Network attacks disrupt the normal functioning of a network, steal data, or damage network infrastructure.
+- **Malware Infiltration:** Malware infiltration refers to the introduction of malicious software into the network:
 
-- **Eavesdropping:** The most common form of passive attacks. Attackers listen to the wireless transmissions between devices. The goal is to capture sensitive information like passwords, credit card numbers, or confidential communications.
-- **Sniffing:** Attackers use software tools known as network sniffers to capture data packets transmitted over a wireless network. These tools can capture a significant amount of data which can then be analyzed to extract useful information.
+## 2.3 Security Protocols
+The first line of defense in securing a WiFi network involves choosing the right security protocol. These protocols are responsible for authentication (controlling the access to the network) and encryption (securing the integrity and confidentiality of data) in the network.
 
-**Common Attacks**
-- **Packet Sniffing:** Using software to log traffic passing over a digital network. In wireless networks, this involves capturing packets that are broadcast through the air.
-- **Network Monitoring:** Observing network traffic to identify patterns, like the timing of communications or the identification of devices and servers, which can be used for more targeted attacks.
+- **WEP (Wired Equivalent Privacy):** Outdated and highly insecure, avoid using.
+- **WPA (WiFi Protected Access):** Better than WEP, but has vulnerabilities.
+- **WPA2 (WiFi Protected Access 2):** Currently the most secure option available for most users.
+- **WPA3:** The latest standard, offering improved security features.
 
-**Defense Mechanisms**
-- **Strong Encryption:** Using robust encryption protocols like WPA3 helps in preventing attackers from deciphering the intercepted data. AES, used in WPA2 and WPA3, is particularly effective against passive attacks.
-- **Network Security Policies:** Implementing and enforcing strong network security policies, including regular updates to security protocols and educating users about secure practices.
-- **Monitoring and Anomaly Detection:** Regularly monitoring network traffic for anomalies and employing intrusion detection systems can help in identifying potential passive eavesdropping.
-- **Virtual Private Networks:** Using VPNs can encrypt data over the network, making it difficult for attackers to glean any useful information from intercepted data.
-
-### 2.2.2 Active Attacks
-Active attacks in wireless security involve unauthorized access or manipulation of the wireless network or the data transmitted over it. Unlike passive attacks where the attacker only eavesdrops, active attacks include actions that alter, disrupt, or destroy data and network functionality.
-
-- **Data Manipulation:** This includes altering or corrupting data packets during transmission. It could be as simple as modifying messages or as malicious as injecting harmful data or malware into the network.
-- **Network Interference:** This involves disrupting the normal functioning of the network. It can range from flooding the network with traffic (DoS attacks) to creating unauthorized access points (Evil Twins).
-- **Identity Spoofing:** Attackers may impersonate a legitimate user or device on the network, allowing them to bypass security measures and gain unauthorized access to sensitive data.
-- **Session Hijacking:** This involves taking control of a user's connection session to intercept or manipulate the data being transmitted.
-
-**Common Attacks**
-- **Man-in-the-Middle (MitM) Attacks:** The attacker intercepts communication between two parties, either to eavesdrop or to impersonate one of the parties, making it appear as normal exchanges.
-- **Cracking Attacks:** The attacker uses tools to crack weak or default WiFi passwords.
-- **Denial of Service (DoS) Attacks:** These attacks aim to overwhelm the network with traffic, rendering it unusable.
-- **Evil Twin Attacks:** Setting up a rogue WiFi access point that appears legitimate to users, attackers can gather sensitive data from anyone who connects to it.
-- **Packet Injection:** Injecting malicious packets into legitimate network streams can disrupt or take control of communication.
-
-**Defense Mechanisms**
-- **Strong Authentication Protocols:** Implementing robust authentication mechanisms like WPA3-Enterprise can help in preventing unauthorized access to the network.
-- **Firewalls and Intrusion Detection Systems (IDS):** These systems monitor network traffic for signs of unusual or malicious activity and can block unauthorized access attempts.
-- **Network Segmentation:** Dividing the network into segments can contain the impact of an active attack, preventing it from spreading across the entire network.
-- **Regular Software Updates:** Keeping all network hardware and software updated can protect against known vulnerabilities that could be exploited by attackers.
+## 2.4 Further Considerations
+- **Strong Passwords:** Use a complex password for your WiFi network by mixing letters, numbers, and special characters. Avoid common words or easily guessable information.
+- **Change SSID Names:** Change the default SSID to something unique but not personally identifiable. Avoid names that make the network a more likely target for hackers.
+- **Disable WPS:** WPS can be a security vulnerability due to its PIN feature making it easier for devices to connect. Disable WPS to prevent potential brute-force attacks.
+- **Firewalls:** Activate the router’s built-in firewall to add an extra layer of defense. Consider additional firewall software for more comprehensive protection.
+- **Firmware Updates:** Regularly update the router’s firmware to patch security vulnerabilities. Set reminders or enable auto-updates if available.
+- **MAC Filters:** Use MAC address filtering for an additional layer of security. Be aware that MAC addresses can be spoofed by determined attackers.
+- **Reduced Range:** Adjust the signal strength of your router to limit coverage outside your premises. Consider the physical placement of the router in your home or office.
+- **Guest Access:** Create a separate guest network if your router supports it. Ensure it has a different password and doesn’t provide access to the main network.
+- **Monitoring:** Regularly check the list of devices connected to your network. Investigate unknown devices or unusual activity.
+- **Education:** Educate yourself and employees about the risks and threats affecting wireless security. Only then it is possible to deal with threats.
 
 ## 2.3 Conclusion
-In conclusion, this lecture highlights the critical importance of understanding and mitigating both passive and active attacks in wireless networks. Emphasizing the necessity of strong encryption, vigilant network monitoring, and robust security protocols like WPA3, it underscores that effectively securing a WiFi network involves both technical measures and informed user practices. This knowledge is indispensable in an era where wireless connectivity is pervasive and integral to our daily digital interactions.
+Securing a WiFi network is a critical task in safeguarding your digital life. By implementing these practices, you significantly reduce the risk of security breaches and protect sensitive information. Regular vigilance and adherence to these security measures will help ensure that your network remains a safe gateway to the digital world.
 
 # Sources
 - [https://en.wikipedia.org/wiki/Wireless_security](https://en.wikipedia.org/wiki/Wireless_security)
