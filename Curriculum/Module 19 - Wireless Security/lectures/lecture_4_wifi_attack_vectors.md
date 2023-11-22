@@ -85,6 +85,6 @@ This chapter's exploration of WiFi attack vectors reveals a key insight: the maj
 
 # Sources
 
-https://www.webtitan.com/blog/most-common-wireless-network-attacks/
-https://www.examcollection.com/certification-training/security-plus-wireless-attacks-and-their-types.html
-https://www.giac.org/paper/gsec/4116/wireless-ids-exposures-attack-vectors-detection/106559
+- https://www.webtitan.com/blog/most-common-wireless-network-attacks/
+- https://www.examcollection.com/certification-training/security-plus-wireless-attacks-and-their-types.html
+- https://www.giac.org/paper/gsec/4116/wireless-ids-exposures-attack-vectors-detection/106559
