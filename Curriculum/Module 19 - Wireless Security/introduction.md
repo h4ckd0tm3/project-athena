@@ -12,10 +12,10 @@ This module will cover the fundamentals of wireless security, with a focus on Wi
 ## Topics Covered
 
 1. Wireless Network Architecture
-1. WiFi Security Fundamentals
-1. WiFi Authentication and Encryption Mechanisms
-1. WiFi Attack Vectors
-1. Wireless Penetration Testing Tools and Techniques
-1. Best Practices for Securing Wireless Networks
+2. WiFi Security Fundamentals
+3. WiFi Authentication and Encryption Mechanisms
+4. WiFi Attack Vectors
+5. Wireless Penetration Testing Tools and Techniques
+6. Best Practices for Securing Wireless Networks
 
 By the end of this module, students should have a solid understanding of the vulnerabilities and attack vectors present in WiFi networks, as well as the tools and techniques used for wireless penetration testing. They should also have a strong grasp of best practices for securing wireless networks.
