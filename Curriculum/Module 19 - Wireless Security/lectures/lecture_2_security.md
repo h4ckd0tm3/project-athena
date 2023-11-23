@@ -7,7 +7,9 @@ In our digital age, WiFi networks are ubiquitous, serving as the gateway to the 
 - **Unauthorized Access:** Unauthorized access occurs when individuals who are not authorized to use a WiFi network gain access to it.
 - **Data Theft:** Data theft refers to the unauthorized retrieval of data transmitted over the network. It can be particularly damaging if sensitive information is intercepted.
 - **Network Attacks:** Network attacks disrupt the normal functioning of a network, steal data, or damage network infrastructure.
-- **Malware Infiltration:** Malware infiltration refers to the introduction of malicious software into the network:
+- **Malware Infiltration:** Malware infiltration refers to the introduction of malicious software into the network.
+
+**Note:** This lecture is only required to provide a basic understanding and brief overview of WiFi security fundamentals. Detailed security risks and attack vectors are covered in later lectures.
 
 ## 2.3 Security Protocols
 The first line of defense in securing a WiFi network involves choosing the right security protocol. These protocols are responsible for authentication (controlling the access to the network) and encryption (securing the integrity and confidentiality of data) in the network.
