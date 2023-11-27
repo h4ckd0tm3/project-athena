@@ -67,20 +67,20 @@ The significance of logging and monitoring encompasses several key dimensions:
 
 - **Centralized Logging:**
 
-  * Uptime Kuma
-  * Grafana
   * Prometheus
   * AWS CloudWatch Logs
-
+  
   - Azure Monitor
   - Google Cloud Logging
-
+  
 - **Real-time Monitoring:**
 
   * AWS CloudWatch
 
   - Azure Monitor
   - Google Cloud Monitoring
+  - Uptime Kuma
+  - Grafana
 
 - **Security Information and Event Management (SIEM):**
 
