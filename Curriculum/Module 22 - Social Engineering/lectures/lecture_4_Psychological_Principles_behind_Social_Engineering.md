@@ -69,6 +69,6 @@ In the next sections of this module we will look at the tools and techniques tha
 
 # Sources
 - **1 Website**: [The psychology of social engineering - the “soft” side of cybercrime](https://www.microsoft.com/en-us/security/blog/2020/06/30/psychology-social-engineering-soft-side-cybercrime) - By Microsoft Security Team, June 30, 2020
-- **2 Website**: [Understanding the Psychology Behind Social Engineering Attacks](http://www.source2.com) - By Mike Varley, Oct 1
-- **3 Book**: [Social Engineering: The Science of Human Hacking](http://www.source3.com) - By Christopher Hadnagy, 2018
+- **2 Website**: [Understanding the Psychology Behind Social Engineering Attacks](https://medium.com/@michaelroyvarley/understanding-the-psychology-behind-social-engineering-attacks-b3c637ef9026) - By Mike Varley, Oct 1
+- **3 Book**: [Social Engineering: The Science of Human Hacking](https://www.amazon.com/Social-Engineering-Science-Human-Hacking/dp/111943338X) - By Christopher Hadnagy, 2018
 - **4 Website**: [The Psychology of Social Engineering – Why It Works](https://www.cde.state.co.us/dataprivacyandsecurity/socialengineeringeducation) - By Colorado Department of Education, January 21, 2020

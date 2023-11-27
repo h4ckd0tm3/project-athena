@@ -45,4 +45,4 @@ The fight against social engineering is multifaceted, involving awareness, polic
 There is no silver bullet for preventing social engineering attacks. However, by following the steps outlined in this article, you can significantly reduce the risk of falling victim to these attacks. It is not the only possible approach, but it is a good starting point for anyone looking to improve their security posture.
 
 # Sources
-- **1 Book**: [Social Engineering: The Science of Human Hacking](http://www.source3.com) - By Christopher Hadnagy, 2018
+- **1 Book**: [Social Engineering: The Science of Human Hacking](https://www.amazon.com/Social-Engineering-Science-Human-Hacking/dp/111943338X) - By Christopher Hadnagy, 2018

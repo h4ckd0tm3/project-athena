@@ -83,4 +83,8 @@ Understanding the tools and techniques of social engineering is essential in tod
 In the next section of this module we will look at how we can defend against these attacks.
 
 # Sources
-- **1 Book**: [Social Engineering: The Science of Human Hacking](http://www.source3.com) - By Christopher Hadnagy, 2018
+- **1 Book**: [Social Engineering: The Science of Human Hacking](https://www.amazon.com/Social-Engineering-Science-Human-Hacking/dp/111943338X) - By Christopher Hadnagy, 2018
+- **2 Website**: [Social Engineering: Definition, Examples, and Techniques](https://www.csoonline.com/article/571993/social-engineering-definition-examples-and-techniques.html) - By CSO Online, 2022
+- **3 Website**: [Top 8 Social Engineering Techniques and How to Prevent Them](https://www.exabeam.com/information-security/top-8-social-engineering-techniques-and-how-to-prevent-them-2022/) - By Exabeam
+- **4 Website**: [What is Social Engineering? Attack Techniques & Prevention Methods](https://www.imperva.com/learn/application-security/social-engineering-attack/) - By Imperva
+
