@@ -88,3 +88,6 @@ Prices are not accurate. Goal is to understand the development of the prices.
 
 ![Graph](https://i.imgur.com/2taNsqp.png)
 
+### Sources
+https://morefield.com/blog/pros-and-cons-of-cloud-computing/
+https://www.cloudways.com/blog/wordpress-shared-vs-dedicated-vs-cloud-hosting/
