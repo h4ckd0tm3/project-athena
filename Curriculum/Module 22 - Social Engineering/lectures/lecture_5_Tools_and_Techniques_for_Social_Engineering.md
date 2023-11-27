@@ -1,7 +1,7 @@
 # Tools and Techniques for Social Engineering
 
 <span style="float: left; margin-right: 10px;">
-	<img src="../resources/images/ToolsSocialEngineering.png" alt="Social Engineering" width="300">
+	<img src="../../resources/images/ToolsSocialEngineering.png" alt="Social Engineering" width="300">
 	<br>
 	<small>Source: [ChatGPT/DALL&middot;E]</small>
 </span>
