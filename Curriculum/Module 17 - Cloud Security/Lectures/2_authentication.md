@@ -8,6 +8,9 @@ How to manage users easily and securely in the cloud?
 
 https://cloud.google.com/iam
 
+![](https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_copy_3.max-2000x2000.jpg)
+
+
 - **Roles**: Predefined sets of permissions that determine what actions are allowed on resources.
     - **Primitive Roles**: Basic roles like Owner, Editor, Viewer.
     - **Predefined Roles**: Specific to GCP services (e.g., `roles/pubsub.publisher`, CloudSQL Admin/Viewer)
@@ -21,6 +24,10 @@ https://cloud.google.com/iam
 
 - Provides identity services like user enrollment, account recovery, and multi-factor authentication.
 - Manages users and groups and ties in with IAM for permissions.
+
+### 1.3. **Organization**
+
+![](https://ermetic.com/wp-content/uploads/2022/04/image3-1.png)
 
 ## 2. Amazon Web Services (AWS)
 
