@@ -1,5 +1,7 @@
 # Windows and AD Security
 
+> By Dominik, Marcus and Otto
+
 This module will cover Windows and Active Directory (AD) security. Students will learn about the different techniques used to secure Windows systems and how to perform penetration testing and security assessments on these systems.
 
 ## Learning Objectives
