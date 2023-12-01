@@ -1,7 +1,7 @@
 # Prevention and Defense against Social Engineering Attacks
 
 <span style="float: left; margin-right: 10px;">
-	<img src="../../resources/images/PreventionSocialEngineering.png" alt="Social Engineering" width="200">
+	<img src="../resources/images/PreventionSocialEngineering.png" alt="Social Engineering" width="200">
 	<br>
 	<small>Source: [ChatGPT/DALL&middot;E]</small>
 </span>

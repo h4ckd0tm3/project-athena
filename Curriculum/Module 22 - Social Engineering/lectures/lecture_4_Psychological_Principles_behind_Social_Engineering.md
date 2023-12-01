@@ -1,7 +1,7 @@
 # Psychological Principles behind Social Engineering 
 
 <span style="float: left; margin-right: 10px;">
-	<img src="../../resources/images/SocialEngineering.png" alt="Social Engineering" width="200">
+	<img src="../resources/images/SocialEngineering.png" alt="Social Engineering" width="200">
 	<br>
 	<small>Source: [ChatGPT/DALL&middot;E]</small>
 </span>
