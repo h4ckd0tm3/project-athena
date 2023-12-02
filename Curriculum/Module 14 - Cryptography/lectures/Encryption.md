@@ -87,7 +87,7 @@ indicating that data encrypted twice will not look like the same in it's encrypt
 - Choose the right mode: ECB, CBC, CTF, CFB.
 ECB counts as unsafe, as visible in the following comparison (left=decrypted, middle=ecb, right=cbc).
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/303px-Tux.svg.png" alt="image" width="100" height="auto"/> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Tux_ECB.png" alt="image" width="100" height="auto"/> <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Tux_secure.png" alt="image" width="100" height="auto"/>
+<img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/Plain.png" alt="image" width="100" height="auto"/> <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/ECB.png" alt="image" width="100" height="auto"/> <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/Secure.png" alt="image" width="100" height="auto"/>
 
 It is okay to use CBC for data encryption; However, it is discouraged to be used for larger amounts of data, as the encryption pattern starts repeating after a high number of blocks. 
 
