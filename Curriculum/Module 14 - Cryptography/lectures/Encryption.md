@@ -25,7 +25,6 @@ Hashing is a one-way process of converting data into a fixed-size string of char
 - **Cryptograpic vs Non-Cryptographic Hashing:**
   - Hashing algorithms are seperated into two categories: Cryptograpic and Non-Cryptograpic hashes.
   - Cryptographic hashing is used for ensuring data integrity and security. It transforms input data of any size into a fixed-size hash value using a mathematical algorithm, where the focus lies on making hash-collisions as improbable as possible.
-  - A hashing collision 
   - Examples:
     - SHA256
     - (MD5)
