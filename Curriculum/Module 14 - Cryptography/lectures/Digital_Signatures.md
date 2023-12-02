@@ -1,7 +1,7 @@
 ## Digital Signatures
 
 Digital signatures are cryptographic techniques used to ensure the authenticity & integrity of digital messages.
-Here, you'll find an overview about the most common algorithms RSA & HMAC, used for signing messages.
+Here, you'll find an overview about the most common ways to sign & verify messages.
 
 - RSA:
 
