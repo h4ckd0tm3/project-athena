@@ -64,10 +64,10 @@ Depending on the exact cipher mode, the encrypted data can be either dependend o
 indicating that data encrypted twice will not look like the same in it's encrypted form.
 
 - Examples:
-    - AES (ECB/CBC),
-    - DES,
-    - 3DES,
-    - Blowfish.
+    - AES (ECB/CBC)
+    - DES
+    - 3DES
+    - Blowfish
 
 ## Comparison - Stream Cipher vs Block Cipher
 
