@@ -5,7 +5,7 @@
 - [Terms](#Terms)
 - [Symmetric Cryptography](#symmetric-cryptography)
 - [Asymmetric Cryptography](#Asymmetric-Cryptography)
-- [Comparison](#Comparison)
+- [Usecases](#Usecases)
 
 ## What is Kryptography?
 
@@ -129,27 +129,21 @@ Both m and c are treated as unsigned integer.
 - **Decryption:**
   - m = c^d mod N.
 
-### Comparison
+### Usecases
 
 - **Symmetric:**
-  - Encryption of large data during transmission.
   As symmetric encryption is way faster than assymetric encryption, it is more suitable for encrypting larger blocks of data. 
-  - Disk encryption.
   It is recommended to use symmetric encryption for disk encryption, as it's way faster than asymmetric encryption.
   Besides that, a suitable disk-cypher should be used, as each cluster needs to be encrypted seperately, independend from the previous one.
 - **Asymmetric:**
-  - Initiating an encrypted channel.
   Asymmetric encryption is often used in the initial phase of communication to establish a secure channel.
   This is because asymmetric encryption involves a pair of keys (public and private), and only the recipient's private key can decrypt the data encrypted with their public key.
-  - Digital signatures.
   Asymmetric encryption can be used to create digital signatures, providing a way to verify the authenticity and integrity of a message or data.
   The private key is used to sign the data, whereas the public key is used to verify the signature.
-  - Public Key Infrastructure (PKI).
   Asymmetric encryption is widely used in Public-Key-Infrastructure.
   It is a hierarchical system for issuing, distributing and verifying digital certificates.
   The topic "PKI" in particular will be discussed later on.
 - **Hybrid:**
-  - Diffie-Hellman Key Exchange.
   The Diffie-Hellman key exchange is often used to establish a shared secret between two parties securely.
   Both parties choose a parameter, which is then sent to the other party. 
   Using the from the other party received parameter, a common shared secret can be used for symmetric encryption.
