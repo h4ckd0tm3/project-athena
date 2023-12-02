@@ -1,6 +1,6 @@
 ## Cryptographic Attacks
 
-Here you'll find an overview on the most common cryptographic attacks, and what you can do against them.
+Here you'll find an overview on the most common cryptographic attacks, and how you can prevent them.
 
 ### Brute Force Attacks
 
