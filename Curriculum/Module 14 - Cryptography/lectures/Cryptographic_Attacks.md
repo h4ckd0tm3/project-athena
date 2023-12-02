@@ -31,5 +31,5 @@ That way, rainbow tables become useless, as the hash of the password cannot dire
 
 Side-channel attacks focus on exploiting information leaked during the execution of cryptographic algorithms. This could include timing information, power consumption, or electromagnetic radiation.
 By analyzing these side-channel leaks, an attacker may gain insights into the cryptographic keys being used.
-To defend against side-channel attacks, cryptographic implementations should be designed with countermeasures. This might involve constant-time algorithms that do not reveal information through timing variations.
-Additionally, using hardware security modules (HSMs) can provide a secure environment for cryptographic operations, minimizing the risk of side-channel attacks. Regularly updating and patching systems is crucial to addressing any identified vulnerabilities in cryptographic implementations.
+To defend against side-channel attacks, cryptographic implementations should be designed with countermeasures.
+This might involve constant-time algorithms that do not reveal information through timing variations.
