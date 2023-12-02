@@ -143,6 +143,7 @@ Both m and c are treated as unsigned integer.
   It is a hierarchical system for issuing, distributing and verifying digital certificates.
   The topic "PKI" in particular will be discussed later on.
 - **Hybrid:**
-  The Diffie-Hellman key exchange is often used to establish a shared secret between two parties securely.
+  - DH-Key Exhange:
+  - The Diffie-Hellman key exchange is often used to establish a shared secret between two parties securely.
   Both parties choose a parameter, which is then sent to the other party. 
   Using the from the other party received parameter, a common shared secret can be used for symmetric encryption.
