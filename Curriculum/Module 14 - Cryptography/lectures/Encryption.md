@@ -53,9 +53,9 @@ Unlike block ciphers, which process fixed-size blocks of data, stream ciphers ge
 This keystream is combined with the plaintext using a bitwise XOR operation to produce the ciphertext
 
 - Examples:
-    -RC4
-    -ChaCha20
-    -AES (CFB/CTR)
+    - RC4
+    - ChaCha20
+    - AES (CFB/CTR)
 
 ### Block Ciphers
 
