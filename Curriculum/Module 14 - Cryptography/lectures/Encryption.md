@@ -87,7 +87,7 @@ indicating that data encrypted twice will not look like the same in it's encrypt
 - Choose the right mode: (Depends on the usecase. CFB, CTF are secure & commonly used ones)
 
 ECB counts as insecure, as visible in the following comparison (left=decrypted, middle=ecb, right=cbc).
-As each block is encrypted independend of the position & plaintext, each similar datablock consisting of the same bytes results in the same encrypted counterpart when being encrypted, allowing a potential attacker to obtain the original encryption key. 
+As each block is encrypted independend of the position & plaintext, each similar datablock consisting of the same bytes results in the same encrypted counterpart when being encrypted, making the encryption pretty ineffective. 
 
 <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/Plain.png" alt="image" width="100" height="auto"/> <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/ECB.png" alt="image" width="100" height="auto"/> <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/Secure.png" alt="image" width="100" height="auto"/>
 
