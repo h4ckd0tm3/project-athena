@@ -84,7 +84,8 @@ indicating that data encrypted twice will not look like the same in it's encrypt
 - AES-256
 - The longer the key, the better.
 - IV should be independent of the key.
-- Choose the right mode: ECB, CBC, CTF, CFB.
+- Choose the right mode: (Depends on the usecase. CFB, CTF are secure & commonly used ones)
+
 ECB counts as unsafe, as visible in the following comparison (left=decrypted, middle=ecb, right=cbc).
 
 <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/Plain.png" alt="image" width="100" height="auto"/> <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/ECB.png" alt="image" width="100" height="auto"/> <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/Secure.png" alt="image" width="100" height="auto"/>
