@@ -1,19 +1,17 @@
 
+## Index
+
+- [What is Cryptography?](#What-is-Kryptography?)
+- [Terms](#Terms)
+- [Symmetric Cryptography](#symmetric-cryptography)
+- [Asymmetric Cryptography](#Asymmetric-Cryptography)
+- [Comparison](#Comparison)
+
 ## What is Kryptography?
 
 Before starting to work with Kryptography, we firstly need an actual definition for what it means.
 Kryptography describes the science of making information unreadable, and only allow the intended recipients to make the unreadable information readable again.
 The term "Encryption" describes the act of transforming the plaintext into an unreadable version, whereas "Decryption" describes the act of converting the unreadable version into it's readable version again.
-
-## Index
-
-- [What is Cryptography?](#what-is-cryptography)
-- [Cryptography in Antiquity](#cryptography-in-antiquity)
-- [Modern Cryptography](#modern-cryptography)
-- [Symmetric Cryptography](#symmetric-cryptography)
-- [Asymmetric Cryptography](#asymmetric-cryptography)
-- [Digital Signatures](#digital-signatures)
-- [Types of Attacks](#types-of-attacks)
 
 ## Terms
 
@@ -131,7 +129,7 @@ Both m and c are treated as unsigned integer.
 - **Decryption:**
   - m = c^d mod N.
 
-### When to Use What?
+### Comparison
 
 - **Symmetric:**
   - Encryption of large data during transmission.
