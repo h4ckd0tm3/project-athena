@@ -3,7 +3,7 @@
 Digital signatures are cryptographic techniques used to ensure the authenticity & integrity of digital messages.
 Here, you'll find an overview about the most common ways to sign & verify messages.
 
-- RSA:
+- RSA
 
 In asymmetric encryption, we used the public key to encrypt the data, whereas the private key was used for decrypting the data.
 For digital signatures, the keys are used the other way around: The private key is used for encrypting the data, and the public key is used for decryption.
