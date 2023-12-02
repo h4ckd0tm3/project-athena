@@ -1,7 +1,5 @@
 ## Sources
 
-- [Fortinet - Public Key Infrastructure](https://www.fortinet.com/resources/cyberglossary/public-keyinfrastructure#:~:text=With%20PKI%2C%20on%20the%20other,using%20a%20compl
-ex%20mathematical%20equation.)
 - [Wikipedia - Public Key Infrastructure](https://de.wikipedia.org/wiki/Public-Key-Infrastruktur)
 - [Educba - HMAC](https://www.educba.com/hmac/)
 - [Wikipedia - Dictionary Attack](https://en.wikipedia.org/wiki/Dictionary_attack)
