@@ -35,7 +35,7 @@ Hashing is a one-way process of converting data into a fixed-size string of char
 
 ## Symmetric Cryptography
 
-- For symmetric encryption, there exists one single key for encrypting & decrypting data.
+- For symmetric encryption, there exists one single key for encrypting & decrypting data. The key itself can be any arbitrary value.
 
 For instance, let there be Person A (Bob) and Person B (Alice).
 Bob wants to send an encrypted message to Alice.
