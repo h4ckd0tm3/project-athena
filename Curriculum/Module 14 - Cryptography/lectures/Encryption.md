@@ -1,7 +1,6 @@
 
 ## Index
 
-- [What is Kryptography?](#What-is-Kryptography?)
 - [Terms](#Terms)
 - [Symmetric Cryptography](#symmetric-cryptography)
 - [Asymmetric Cryptography](#Asymmetric-Cryptography)
