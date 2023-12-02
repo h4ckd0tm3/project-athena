@@ -16,7 +16,7 @@ The term "Encryption" describes the act of transforming the plaintext into an un
 ## Terms
 
 - **Encryption**
-  As mentioned before, encryption describes process of transforming readable data, known as plaintext, into an unreadable form, referred to as ciphertext. It involves the use of algorithms and cryptographic keys to secure information, ensuring that only authorized parties with the corresponding decryption key can revert the ciphertext to its original, readable state.
+  - As mentioned before, encryption describes process of transforming readable data, known as plaintext, into an unreadable form, referred to as ciphertext. It involves the use of algorithms and cryptographic keys to secure information, ensuring that only authorized parties with the corresponding decryption key can revert the ciphertext to its original, readable state.
 - **Decryption**
   - As opposed to encryption, decryption describes the reverse process of encryption, involving the conversion of unreadable ciphertext back into its original and readable plaintext form. It requires the use of the appropriate decryption algorithm and the corresponding cryptographic key, ensuring that only authorized individuals can access and comprehend the originally encoded information.
 
