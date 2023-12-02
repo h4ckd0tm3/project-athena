@@ -81,7 +81,7 @@ indicating that data encrypted twice will not look like the same in it's encrypt
 
 ## Best Practice
 
-- AES-256.
+- AES-256
 - The longer the key, the better.
 - IV should be independent of the key.
 - Choose the right mode: ECB, CBC, CTF, CFB.
