@@ -94,7 +94,7 @@ It is okay to use CBC for data encryption; However, it is discouraged to be used
 
 ## Asymmetric Cryptography
 
-Asymmetric encryption, on the other hand, uses two seperate keys for encryption & decryption:
+Asymmetric encryption, on the other hand, uses two seperate keys, respectively for encryption & decryption:
 - The public key, used for encrypting messages and
 - The private key, used for decrypting messages.
 In contrast to symmetric encryption, the keypair cannot be chosen freely, as they need to be mathematically connected to each other.
