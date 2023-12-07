@@ -12,17 +12,17 @@ In this module, we will explore the fascinating world of cryptography. Students 
 ## Topics Covered
 
 1. Introduction to Cryptography
-2. Symmetric Key Cryptography
-    - Stream Ciphers
-    - Block Ciphers
-3. Asymmetric Key Cryptography
-    - Public Key Cryptography
-    - Digital Signatures
-    - Public Key Infrastructure (PKI)
-4. Cryptographic Attacks
-    - Brute Force Attacks
-    - Dictionary Attacks
-    - Rainbow Tables
-    - Side-Channel Attacks
+1. Symmetric Key Cryptography
+   - Stream Ciphers
+   - Block Ciphers
+1. Asymmetric Key Cryptography
+   - Public Key Cryptography
+   - Digital Signatures
+   - Public Key Infrastructure (PKI)
+1. Cryptographic Attacks
+   - Brute Force Attacks
+   - Dictionary Attacks
+   - Rainbow Tables
+   - Side-Channel Attacks
 
 By the end of this module, students should have a strong understanding of cryptography and its applications in IT security.

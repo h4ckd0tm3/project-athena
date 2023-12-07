@@ -11,9 +11,11 @@ This module will focus on offensive web security, which involves identifying and
 
 ## Topics Covered
 
-1. Introduction to Web Security
-2. OWASP Top 10
-3. Web Application Vulnerability Scanning
-4. Web Application Exploitation Techniques
+1. Introduction to Web
+1. Security Features of the Browser
+1. Client Side Vulnerabilities
+1. Server Side Vulnerabilities
+1. OWASP Top 10
+1. Tools
 
 By the end of this module, students should be able to identify and exploit common web application security vulnerabilities, understand the causes and consequences of web application security breaches, and use various tools and technologies for web application penetration testing.

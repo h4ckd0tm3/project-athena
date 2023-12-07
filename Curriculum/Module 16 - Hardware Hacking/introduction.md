@@ -12,9 +12,9 @@ This module will cover the basics of hardware hacking and explore various techni
 ## Topics Covered
 
 1. Introduction to Hardware Hacking
-2. RFID and NFC
-3. Biometrics
-4. Reverse Engineering of Embedded Systems
-5. Exploiting Embedded Systems
+1. RFID and NFC
+1. Biometrics
+1. Reverse Engineering of Embedded Systems
+1. Exploiting Embedded Systems
 
 By the end of this module, students should be able to analyze and exploit electronic devices using hardware hacking techniques.

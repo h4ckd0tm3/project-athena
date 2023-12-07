@@ -4,25 +4,36 @@
 ### Module 0 - Mindset
 * [Introduction](././Module%200%20-%20Mindset/introduction.md)
 * Lectures
-  * [Introduction to the Offensive Security Mindset](././Module%200%20-%20Mindset/lectures/lecture_1_introduction.md)
-  * [Curiosity, Creativity, Persistence](././Module%200%20-%20Mindset/lectures/lecture_2_ccp.md)
-  * [Maintaining a Healthy Mindset](././Module%200%20-%20Mindset/lectures/lecture_3_mental_health.md)
+  * [Introduction to the Offensive Security Mindset](././Module%200%20-%20Mindset/lectures/lecture_1_introduction.md)
+  * [Curiosity, Creativity, Persistence](././Module%200%20-%20Mindset/lectures/lecture_2_ccp.md)
+  * [Maintaining a Healthy Mindset](././Module%200%20-%20Mindset/lectures/lecture_3_mental_health.md)
 
 ### Module 1 - Ethics and Legal
 * [Introduction](././Module%201%20-%20Ethics%20and%20Legal/introduction.md)
 * Lectures
-  * [Hacker Ethics](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_1_ethics.md)
-  * [Legal Framework](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_2_legal.md)
-  * [Legal Framework in Germany](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_2a_legal_germany.md)
+  * [Hacker Ethics](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_1_ethics.md)
+  * [Legal Framework](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_2_legal.md)
+  * [Legal Framework in Germany](././Module%201%20-%20Ethics%20and%20Legal/lectures/lecture_2a_legal_germany.md)
 
 ### Module 2 - Reconnaissance
 * [Introduction](././Module%202%20-%20Reconnaissance/introduction.md)
+* Lectures
+  * [Introduction to Reconnaissance](././Module%202%20-%20Reconnaissance/lectures/lecture_1_introduction.md)
+  * [Information Gathering](././Module%202%20-%20Reconnaissance/lectures/lecture_2_information_gathering.md)
+  * [Open Source Intelligence (OSINT)](././Module%202%20-%20Reconnaissance/lectures/lecture_3_OSINT.md)
+  * [Social Engineering](././Module%202%20-%20Reconnaissance/lectures/lecture_4_social_engineering.md)
+  * [Search Engines for Reconnaissance](././Module%202%20-%20Reconnaissance/lectures/lecture_5_search_engines.md)
 
 ### Module 3 - Penetration Testing
 * [Introduction](././Module%203%20-%20Penetration%20Testing/introduction.md)
 
 ### Module 4 - Web Security
 * [Introduction](././Module%204%20-%20Web%20Security/introduction.md)
+* Lectures
+  * [Introduction to Web](././Module%204%20-%20Web%20Security/lectures/lecture_1_introduction.md)
+  * [Security Features of the Browser](././Module%204%20-%20Web%20Security/lectures/lecture_2_security_features.md)
+  * [Client Side Vulnerabilities](././Module%204%20-%20Web%20Security/lectures/lecture_3_client_side.md)
+  * [Server Side Vulnerabilities](././Module%204%20-%20Web%20Security/lectures/lecture_4_server_side.md)
 
 ### Module 5 - Hacking with Python
 * [Introduction](././Module%205%20-%20Hacking%20with%20Python/introduction.md)
@@ -68,6 +79,13 @@
 
 ### Module 19 - Wireless Security
 * [Introduction](././Module%2019%20-%20Wireless%20Security/introduction.md)
+* Lectures
+  * [1. The Wireless Network Architecture](././Module%2019%20-%20Wireless%20Security/lectures/lecture_1_architecture.md)
+  * [2. WiFi Security Fundamentals](././Module%2019%20-%20Wireless%20Security/lectures/lecture_2_security.md)
+  * [3. WiFi Authentication and Encryption Mechanisms](././Module%2019%20-%20Wireless%20Security/lectures/lecture_3_authentication.md)
+  * [4. WiFi Attack Vectors](././Module%2019%20-%20Wireless%20Security/lectures/lecture_4_wifi_attack_vectors.md)
+  * [5. Wireless Penetration Testing Tools and Techniques](././Module%2019%20-%20Wireless%20Security/lectures/lecture_5_wifi_penetration_testing.md)
+  * [6. Best Practices for Securing Wireless Networks](././Module%2019%20-%20Wireless%20Security/lectures/lecture_6_best_practices.md)
 
 ### Module 20 - RATs and Rootkits
 * [Introduction](././Module%2020%20-%20RATs%20and%20Rootkits/introduction.md)

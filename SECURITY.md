@@ -1,6 +1,7 @@
 # Security Policy
 
 ## Supported Versions
+
 We only support the latest version of this repository.
 
 ## Reporting a Vulnerability

@@ -12,8 +12,8 @@ This module will cover the ethical and legal considerations that are central to 
 ## Topics Covered
 
 1. Hacker Ethics
-2. Ethical Dilemmas
-3. Legal Framework
-4. Cybercrime
+1. Ethical Dilemmas
+1. Legal Framework
+1. Cybercrime
 
 By the end of this module, students should have a solid foundation in the ethical and legal considerations that are central to IT security.

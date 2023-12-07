@@ -12,8 +12,8 @@ This module will cover Remote Access Trojans (RATs) and Rootkits, which are tool
 ## Topics Covered
 
 1. Introduction to RATs and Rootkits
-2. Features and functionalities of RATs and Rootkits
-3. Real-world RAT and Rootkit attacks
-4. Detection and defense against RATs and Rootkits
+1. Features and functionalities of RATs and Rootkits
+1. Real-world RAT and Rootkit attacks
+1. Detection and defense against RATs and Rootkits
 
 By the end of this module, students should have a solid understanding of RATs and Rootkits, their functionalities, and the techniques and tools used to detect and defend against them.

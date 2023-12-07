@@ -12,13 +12,13 @@ This module will focus on reconnaissance, which is the process of gathering info
 ## Topics Covered
 
 1. Introduction to Reconnaissance
-2. Information Gathering Techniques
-    - NMAP
-    - Enumeration
-3. Open Source Intelligence (OSINT)
-4. Social Engineering
-5. Search Engines for Reconnaissance
-    - Shodan
-    - Google Dorks
+1. Information Gathering Techniques
+   - NMAP
+   - Enumeration
+1. Open Source Intelligence (OSINT)
+1. Social Engineering
+1. Search Engines for Reconnaissance
+   - Shodan
+   - Google Dorks
 
 By the end of this module, students should be able to effectively gather information about a target using various techniques, understand the principles and techniques of social engineering, and use search engines for reconnaissance purposes.

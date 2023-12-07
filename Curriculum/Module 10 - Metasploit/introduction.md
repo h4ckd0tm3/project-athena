@@ -12,9 +12,9 @@ This module will introduce students to Metasploit, one of the most popular explo
 ## Topics Covered
 
 1. Introduction to Metasploit
-2. Installation and Configuration
-3. Basic Usage
-4. Advanced Usage
-5. Post-Exploitation Techniques
+1. Installation and Configuration
+1. Basic Usage
+1. Advanced Usage
+1. Post-Exploitation Techniques
 
 By the end of this module, students should be familiar with Metasploit and its capabilities and be able to use it to carry out various attacks on vulnerable systems.

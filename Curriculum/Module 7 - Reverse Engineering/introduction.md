@@ -7,13 +7,13 @@ This module will cover the basics of reverse engineering, with a focus on using 
 - Define reverse engineering and its importance in the field of cybersecurity
 - Identify and analyze key elements of software binaries using Ghidra
 - Understand different types of reverse engineering techniques and when to use them
-- Conduct basic reverse engineering tasks, such as disassembling and decompiling code
+- Conduct basic reverse engineering tasks, such as disassembling and decompiling code as well as debugging binaries
 
 ## Topics Covered
 
 1. Introduction to Reverse Engineering
-2. Analyzing Software Binaries with Ghidra
-3. Different Types of Reverse Engineering
-4. Basic Reverse Engineering Tasks
+1. Different Types of Reverse Engineering
+1. Analyzing Software Binaries
+1. Basic Reverse Engineering Tasks
 
-By the end of this module, students should have a solid understanding of the basics of reverse engineering, and be able to conduct basic reverse engineering tasks using Ghidra.
+By the end of this module, students should have a solid understanding of the basics of reverse engineering, and be able to conduct basic reverse engineering tasks.
