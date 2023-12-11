@@ -24,38 +24,6 @@ _source: Firewalls [4.]_
 
 Firewalls work by examining data packets passing through them and applying the rules to determine whether to allow or block the traffic. These rules can be based on various factors like IP addresses, port numbers, protocols, or specific types of content.
 
-## Types of Firewalls
-
-A firewall can either be software or hardware. Software firewalls are programs installed on each computer, and they regulate network traffic through applications and port numbers. Meanwhile, hardware firewalls are the equipment established between the gateway and your network. Additionally, you call a firewall delivered by a cloud solution as a cloud firewall.
-
-There are multiple types of firewalls based on their traffic filtering methods, structure, and functionality. A few of the types of firewalls are:
-
-## Packet Filtering
-
-A packet filtering firewall controls data flow to and from a network. It allows or blocks the data transfer based on the packet's source address, the destination address of the packet, the application protocols to transfer the data, and so on.
-
-## Proxy Service Firewall
-
-This type of firewall protects the network by filtering messages at the application layer. For a specific application, a proxy firewall serves as the gateway from one network to another.
-
-## Stateful Inspection
-
-Such a firewall permits or blocks network traffic based on state, port, and protocol. Here, it decides filtering based on administrator-defined rules and context.
-
-## Next-Generation Firewall
-
-According to Gartner, Inc.’s definition, the next-generation firewall is a deep-packet inspection firewall that adds application-level inspection, intrusion prevention, and information from outside the firewall to go beyond port/protocol inspection and blocking.
-
-## Unified Threat Management (UTM) Firewall
-
-A UTM device generally integrates the capabilities of a stateful inspection firewall, intrusion prevention, and antivirus in a loosely linked manner. It may include additional services and, in many cases, cloud management. UTMs are designed to be simple and easy to use.
-
-## Threat-Focused NGFW
-
-These firewalls provide advanced threat detection and mitigation. With network and endpoint event correlation, they may detect evasive or suspicious behavior.
-
-_source: Firewalls [5.]_
-
 ## Softwarebased Firewall:
 
 - **Software-based firewalls** are programs installed on individual computers or devices. They monitor traffic specific to that device, regulating incoming and outgoing connections based on predefined rules. They're often part of antivirus software or operating systems, offering granular control over what enters or leaves a particular device.
