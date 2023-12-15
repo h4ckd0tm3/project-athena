@@ -192,7 +192,7 @@ Some of these real rootkit attacks summed up:
 
 -   Necurs is not a rootkit but a notorious botnet that has been involved in various cybercriminal activities, including spam email campaigns, distributing ransomware, and participating in distributed denial-of-service (DDoS) attacks.
 
-Implement and use tools to detect and defend against RATs
+**Implement and use tools to detect and defend against RATs**
 
 It can be pretty difficult to defend against RATs, because of the fact that they can often operate completely in the background processes of the computer. Even though it can be hard to detect them, there are several ways to do that:
 
@@ -204,7 +204,7 @@ It can be pretty difficult to defend against RATs, because of the fact that they
 
 So it can be said that there are tools to defend against RATs. It's also important to update software on the computer, as well as informing on recently discovered vulnerabilities. Most RATs get installed by pressing on suspicious links in mails, so having a healthy skepticism is important.
 
-Implement and use tools to detect and defend against Rootkits 
+**Implement and use tools to detect and defend against Rootkits**
 
 To counter rootkit malware, organizations  should implement advanced endpoint protection solutions using technologies like artificial intelligence, telemetry, and real-time response capabilities. These solutions go beyond traditional measures and include continuous monitoring of endpoint BIOS to prevent kernel rootkit attacks.
 
