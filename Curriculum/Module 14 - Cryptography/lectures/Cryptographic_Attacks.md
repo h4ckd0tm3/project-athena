@@ -24,7 +24,7 @@ Instead of repeatedly hashing potential passwords during an attack, the attacker
 Rainbow tables offer a tradeoff between performance and storage:
 - Compared to brute-force attacks, they require much less performance.
 - Compared to dictionary attacks containing a combination of nearly every single possible key, they require much less storage.
-To prevent rainbow table attacks, you should use techniques such as salting. Salting involves adding random data to the password before hashing it.
+To prevent rainbow table attacks, you should use techniques such as salting. Salting involves adding random data to the password before hashing it. The salt should be changed regulary, ideally after each password.
 That way, rainbow tables become useless, as the hash of the password cannot directly lead to the original password.
 
 ### Side-Channel Attacks
