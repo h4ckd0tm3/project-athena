@@ -6,25 +6,25 @@ Here you'll find an overview on the most common cryptographic attacks, and how y
 
 The brute-force attack describes an attack where the attacker tries to guess the key by trying every possible key-combination.
 Assuming a key can only consist out of 4 letters, the attacker will start trying to decrypt the data using the keys 'A', 'B', 'C', 'D'... up to "ZZZZ", until it finds the desired key.
-While this attack is suitable for short key lengths, it becomes nearly impossible to guess a key who consists of many different letters.
-For strong keys, the attacker needs to attempt 256^length key combinations until he is guaranteed to find the desired key, whereas the average amount of key combinations is about 256^(length - 1) keys.
-In order to protect against brute-force attacks, you should choose a strong key, consisting of lower- and upper-case letters, numbers and special symbols. 
+While this attack is suitable for short key lengths, it becomes nearly impossible to guess a key which consists of many different letters.
+For strong keys, the attacker needs to attempt A^n key combinations until he is guaranteed to find the desired key, where A describes the size of the used Alphabet (f.E., for upper & lowercase lettes: A-Z (26) + a-z(26) => 52) and n describes the length of the key.
+In order to protect against brute-force attacks, you should choose strong keys, being as long as possible. 
 
 ### Dictionary Attacks
 
 For dictionary attacks, the attacker tries to guess the key by iterating through a pre-existing dictionary of possible keys.
 There are many pre-existing dictionaries availabe for download, containing many frequently used keys.
-Dictionary attacks are suitable for shorter keys, as those are more likely to be present in a dictionary.
-In order to avoid your keys being guessed via dictionaries, you are encouraged to use long keys, consisting of different letters, numbers and symbols.
+Dictionary attacks are suitable for shorter keys, as those are more likely to be present in leaked password databases.
+In order to avoid your keys being guessed via dictionaries, you are encouraged to use long keys, consisting of different letters, numbers and symbols. Besides that, you should not re-use any of your passwords.
 
 ### Rainbow Tables
 
-Rainbow table attacks involve the use of precomputed tables that map plaintext passwords to hash values.
-Instead of repeatedly hashing potential passwords during an attack, the attacker can quickly look up the hash in a precomputed table to find the corresponding plaintext password.
+
+Rainbow table attacks involve the use of precomputed tables that map input values (not exclusively passwords) to hash values. Instead of repeatedly hashing potential inputs during an attack, the attacker can quickly look up the hash in a precomputed table to find the corresponding original input.
 Rainbow tables offer a tradeoff between performance and storage:
-- Compared to brute-force attacks, they require much less performance.
-- Compared to dictionary attacks containing a combination of nearly every single possible key, they require much less storage.
-To prevent rainbow table attacks, you should use techniques such as salting. Salting involves adding random data to the password before hashing it. The salt should be changed regulary, ideally after each password.
+- Compared to brute-force attacks, they require much less computational power.
+- Compared to dictionary attacks containing a combination of nearly every single possible key, they demand much less storage.
+- To prevent rainbow table attacks, you should use techniques such as salting. Salting involves adding random data to the password before hashing it. The salt should be changed regulary, ideally after each password.
 That way, rainbow tables become useless, as the hash of the password cannot directly lead to the original password.
 
 ### Side-Channel Attacks
