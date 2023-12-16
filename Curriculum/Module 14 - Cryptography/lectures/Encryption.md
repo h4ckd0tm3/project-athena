@@ -6,10 +6,10 @@
 - [Asymmetric Cryptography](#Asymmetric-Cryptography)
 - [Usecases](#Usecases)
 
-## What is Kryptography?
+## What is Cryptography?
 
-Before starting to work with Kryptography, we firstly need an actual definition for what it means.
-Kryptography describes the science of making information unreadable, and only allow the intended recipients to make the unreadable information readable again.
+Before starting to work with Cryptography, we firstly need an actual definition for what it means.
+Cryptographydescribes the science of making information unreadable, and only allow the intended recipients to make the unreadable information readable again.
 The term "Encryption" describes the act of transforming the plaintext into an unreadable version, whereas "Decryption" describes the act of converting the unreadable version into it's readable version again.
 
 ## Terms
