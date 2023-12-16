@@ -15,4 +15,4 @@ Now everyone with the public key can compare the decrypted hash against the actu
 HMAC is another way of verifying digital messages.
 In contrast to RSA, a shared secret is used. The message is combined with a secret code, creating a so-called tag.
 For symmetric encryption, the tag is created based on both the plaintext & the secret code. After transmission, the tag can be re-created by the receiver, which can compared against the initial tag for detecting transmission errors.  
-While HMAC can be used to verify the integrity and authenticity of data, it is important to not that it's not a signing algorithm, as both parties would need to have the same secret key in order to compare the tag.
+While HMAC can be used to verify the integrity and authenticity of data, it is important to note that it's not a signing algorithm, as both parties would need to have the same secret key in order to compare the tag.
