@@ -49,17 +49,6 @@ In cryptography, there exists a similar concept named NONCE (Number only used on
 Nonces are used for ensuring the uniqueness of cryptographic operations, preventing the reuse of ciphertexts with the same key.
 While both of them seem similar, it is important not to confuse an IV (Used for providing randomness for the start of the encryption process) with a NONCE (Ensuring that cryptographic operations can only be performed once).
 
-### Stream Ciphers
-
-A stream cipher describes an encryption/decryption algorithm which operates on individual bits or bytes of data, encrypting or decrypting them one at a time.
-Unlike block ciphers, which process fixed-size blocks of data, stream ciphers generate a continuous stream of pseudorandom bytes.
-This keystream is combined with the plaintext using a bitwise XOR operation to produce the ciphertext
-
-- Examples:
-    - RC4
-    - ChaCha20
-    - AES (CFB/CTR)
-
 ### Block Ciphers
 
 A block cipher is another kind of algorithm, which encrypts data blockwise instead of one by one. In contrast to stream ciphers, they always operate on blocks of multiple bytes.
@@ -71,6 +60,14 @@ indicating that data encrypted twice will not look like the same in it's encrypt
     - DES
     - 3DES
     - Blowfish
+
+### Stream Ciphers
+
+There also exist so-called stream ciphers, which in contrast to block ciphers do not have a fixed blocksize. This means that no padding needs to be applied to the plaintext in order for it to be encrypted.
+
+- Examples:
+    - ChaCha20
+    - AES (CFB/CTR)
 
 ## Comparison - Stream Cipher vs Block Cipher
 
@@ -87,14 +84,14 @@ indicating that data encrypted twice will not look like the same in it's encrypt
 - AES-256
 - The longer the key, the better.
 - IV should be independent of the key.
-- Choose the right mode: (Depends on the usecase. CFB, CTF are secure & commonly used ones)
+- Choose the right mode: (Depends on the usecase. CFB, CTR are secure & commonly used ones)
 
 ECB counts as insecure, as visible in the following comparison (left=decrypted, middle=ecb, right=cbc).
 As each block is encrypted independend of the position & plaintext, each similar datablock consisting of the same bytes results in the same encrypted counterpart when being encrypted, making the encryption pretty ineffective. 
 
 <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/Plain.png" alt="image" width="100" height="auto"/> <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/ECB.png" alt="image" width="100" height="auto"/> <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/Secure.png" alt="image" width="100" height="auto"/>
 
-It is okay to use CBC for data encryption; However, it is discouraged to be used for larger amounts of data, as the encryption pattern starts repeating after a high number of blocks (in fact, 2^(n/2).
+It is okay to use CBC for data encryption; However, it is discouraged to be used for larger amounts of data, as the encryption pattern starts repeating after a high number of blocks (in fact, 2^(n/2), where n is defined as the blocksize).
 
 ## Asymmetric Cryptography
 
