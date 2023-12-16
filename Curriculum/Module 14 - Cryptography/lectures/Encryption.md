@@ -36,14 +36,18 @@ Hashing is a one-way process of converting data into a fixed-size string of char
 
 - For symmetric encryption, there exists one single key for encrypting & decrypting data. The key itself can be any arbitrary value.
 
-For instance, let there be Person A (Bob) and Person B (Alice).
-Bob wants to send an encrypted message to Alice.
-Bob uses the shared key for encrypting the message, whereas Alice uses the same shared key for decrypting the message.
+For instance, let there be Person A (Alice) and Person B (Bob).
+Alice wants to send an encrypted message to Alice.
+Alice uses the shared key for encrypting the message, whereas Bob uses the same shared key for decrypting the message.
 Everyone aware of the shared key can encrypt & decrypt sent messages.
 
 For many block ciphers, an IV (initialization vector) needs to be provided aswell. There's a simple reason for that:
 In several ciphers, blocks are depending on each other, meaning block n cannot be en- or decrypted without having block (n-1).
 In order to provide a dependency for the very first block, an IV can be used.
+
+In cryptography, there exists a similar concept named NONCE (Number only used once), which is used by ECDSA (Elliptic Curve Digital Signature Algorithm).
+Nonces are used for ensuring the uniqueness of cryptographic operations, preventing the reuse of ciphertexts with the same key.
+While both of them seem similar, it is important not to confuse an IV (Used for providing randomness for the start of the encryption process) with a NONCE (Ensuring that cryptographic operations can only be performed once).
 
 ### Stream Ciphers
 
@@ -99,13 +103,13 @@ Asymmetric encryption, on the other hand, uses two seperate keys, respectively f
 - The private key, used for decrypting messages.
 In contrast to symmetric encryption, the keypair cannot be chosen freely, as they need to be mathematically connected to each other.
 
-For instance, let there be Person A (Bob) and Person B (Alice). Each of them has a public & private key.
+For instance, let there be Person A (Alice) and Person B (Bob). Each of them has a public & private key.
 The public key needs to be available for everyone who wants to encrypt messages.
 The private key must be kept private, as it can be used to decrypt any messages encrypted with the respective public key.
 
-Bob wants to send an encrypted message to Alice.
-Firstly, Bob encrypts the message using Alice's public key for, which is then transmitted to Alice.
-Then, Alice uses her private key for decrypting the message.
+Alice wants to send an encrypted message to Bob.
+Firstly, Alice encrypts the message using Bob's public key for, which is then transmitted to Bob.
+Then, Bob uses his private key for decrypting the message.
 
 ### How to generate a RSA keypair:
 
