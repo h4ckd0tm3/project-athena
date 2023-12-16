@@ -94,7 +94,7 @@ As each block is encrypted independend of the position & plaintext, each similar
 
 <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/Plain.png" alt="image" width="100" height="auto"/> <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/ECB.png" alt="image" width="100" height="auto"/> <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/Secure.png" alt="image" width="100" height="auto"/>
 
-It is okay to use CBC for data encryption; However, it is discouraged to be used for larger amounts of data, as the encryption pattern starts repeating after a high number of blocks. 
+It is okay to use CBC for data encryption; However, it is discouraged to be used for larger amounts of data, as the encryption pattern starts repeating after a high number of blocks (in fact, 2^(n/2).
 
 ## Asymmetric Cryptography
 
