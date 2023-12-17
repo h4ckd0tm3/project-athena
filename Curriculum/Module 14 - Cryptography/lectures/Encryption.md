@@ -80,7 +80,7 @@ There also exist so-called stream ciphers, which in contrast to block ciphers do
 
 In the following, you can see the encryption process of a stream cipher (as example, CTR [Counter-Mode]) compared to a block cipher (as example, CFB [AES Cipher Feedback Mode])
 
-<img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/CTR.png" alt="image" width="400" height="auto"/> <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/CFB.png" alt="image" width="400" height="auto"/>
+<img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/CTR.bmp" alt="image" width="400" height="auto"/> <img src="/Curriculum/Module%2014%20-%20Cryptography/resources/images/CFB.png" alt="image" width="400" height="auto"/>
 
 ## Best Practice
 
