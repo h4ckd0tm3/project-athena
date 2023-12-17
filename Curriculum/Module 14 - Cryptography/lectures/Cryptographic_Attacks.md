@@ -8,7 +8,7 @@ The brute-force attack describes an attack where the attacker tries to guess the
 Assuming a key can only consist out of 4 letters, the attacker will start trying to decrypt the data using the keys 'A', 'B', 'C', 'D'... up to "ZZZZ", until it finds the desired key.
 While this attack is suitable for short key lengths, it becomes nearly impossible to guess a key which consists of many different letters.
 For strong keys, the attacker needs to attempt A^n key combinations until he is guaranteed to find the desired key, where A describes the size of the used Alphabet (f.E., for upper & lowercase lettes: A-Z (26) + a-z(26) => 52) and n describes the length of the key.
-In order to protect against brute-force attacks, you should choose strong keys, being as long as possible. 
+In order to protect against brute-force attacks, you should choose keys which are as long as possible.
 
 ### Dictionary Attacks
 
