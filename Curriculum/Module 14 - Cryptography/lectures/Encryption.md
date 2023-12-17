@@ -9,7 +9,7 @@
 ## What is Cryptography?
 
 Before starting to work with Cryptography, we firstly need an actual definition for what it means.
-Cryptography describes the science of making information unreadable, and only allow the intended recipients to make the unreadable information readable again.
+Cryptography describes the science of transferring sensitive information securely over unsafe communication channels, only allowing the intended recipients to read the actual data.
 The term "Encryption" describes the act of transforming the plaintext into an unreadable version, whereas "Decryption" describes the act of converting the unreadable version into it's readable version again.
 
 ## Terms
