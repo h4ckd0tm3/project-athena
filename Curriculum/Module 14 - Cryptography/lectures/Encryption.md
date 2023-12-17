@@ -66,7 +66,7 @@ There also exist so-called stream ciphers, which in contrast to block ciphers do
 
 - Examples:
     - ChaCha20
-    - AES (CFB/CTR)
+    - AES (CTR [Counter Mode])
 
 ## Comparison - Stream Cipher vs Block Cipher
 
