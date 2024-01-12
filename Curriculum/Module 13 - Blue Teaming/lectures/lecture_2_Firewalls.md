@@ -12,13 +12,13 @@ For instance, the picture below illustrates how a firewall lets genuine traffic 
 
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Firewall_1.png" alt="drawing" style="width:500px"/>
 
-_source: Firewalls [3.]_
+_source: Firewalls \[3.\]_
 
 However, as you can see on the picture below, the malicious or per rules blocked traffic is not allowed to enter the users private network. The gatekeeper is doing his job pretty good!
 
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Firewall_2.png" alt="drawing" style="width:500px"/>
 
-_source: Firewalls [4.]_
+_source: Firewalls \[4.\]_
 
 ## How does a Firewall Work?
 
@@ -35,8 +35,8 @@ Firewalls work by examining data packets passing through them and applying the r
 ## Differences Between Software and Hardware Firewalls
 
 1. **Scope:** Software firewalls protect individual devices; hardware firewalls safeguard entire networks.
-2. **Location:** Software firewalls are installed directly on devices; hardware firewalls are separate physical devices or integrated within network infrastructure.
-3. **Granularity of Control:** Software firewalls offer detailed control per device; hardware firewalls provide broader network-wide protection and can be more challenging to customize for individual devices.
+1. **Location:** Software firewalls are installed directly on devices; hardware firewalls are separate physical devices or integrated within network infrastructure.
+1. **Granularity of Control:** Software firewalls offer detailed control per device; hardware firewalls provide broader network-wide protection and can be more challenging to customize for individual devices.
 
 Both types of firewalls are essential in a comprehensive security strategy. Often, a combination of both software and hardware firewalls is used in an organization's network architecture to provide layered security defenses.
 
@@ -60,34 +60,34 @@ Both types of firewalls are essential in a comprehensive security strategy. Ofte
    Operation: Examines packets based on pre-defined rules (such as source/destination IP, ports, protocols) and allows or blocks them accordingly. <br>
    Characteristics: Efficient but operates at the network layer (Layer 3) of the OSI model and lacks deep inspection capabilities.
 
-2. **Stateful Inspection Firewalls** <br>
+1. **Stateful Inspection Firewalls** <br>
    Operation: Tracks the state of active connections, allowing or denying traffic based on the context of the connection (stateful examination). <br>
    Characteristics: More secure than packet filtering, as it considers the connection state. It operates at network (Layer 3) and transport (Layer 4) layers.
 
-3. **Proxy Firewalls (Application-Level Gateways)** <br>
+1. **Proxy Firewalls (Application-Level Gateways)** <br>
    Operation: Acts as an intermediary between clients and servers, handling traffic at the application layer. It establishes separate connections for each request. <br>
    Characteristics: Offers enhanced security by inspecting and filtering at Layer 7 (application layer) but can introduce latency.
 
-4. **Next-Generation Firewalls (NGFW)** <br>
+1. **Next-Generation Firewalls (NGFW)** <br>
    Operation: Integrates traditional firewall features with advanced functionalities like intrusion prevention, application awareness, deep packet inspection, and more. <br>
    Characteristics: Provides comprehensive security by combining various security features to detect and block modern threats.
 
-5. **Deep Packet Inspection (DPI) Firewalls** <br>
+1. **Deep Packet Inspection (DPI) Firewalls** <br>
    Operation: Analyzes packet contents beyond header information, scrutinizing the actual data payload for specific patterns or anomalies. <br>
    Characteristics: Offers detailed inspection but can impact performance due to resource-intensive packet analysis.
 
-6. **Virtual Firewalls** <br>
+1. **Virtual Firewalls** <br>
    Operation: Designed for virtualized environments, securing traffic within virtual networks or between virtual machines. <br>
    Characteristics: Provides security for virtual environments, similar to physical firewalls but tailored for virtualized networks.
 
-_source: Firewalls [1.], Firewalls [2.]_
+_source: Firewalls \[1.\], Firewalls \[2.\]_
 
 ## References
 
 **Firewalls**
 
 1. https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html
-2. https://www.checkpoint.com/cyber-hub/network-security/what-is-firewall/
-3. https://www.simplilearn.com/ice9/free_resources_article_thumb/Firewall_1.png
-4. https://www.simplilearn.com/ice9/free_resources_article_thumb/Firewall_2.png
-5. https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-firewall
+1. https://www.checkpoint.com/cyber-hub/network-security/what-is-firewall/
+1. https://www.simplilearn.com/ice9/free_resources_article_thumb/Firewall_1.png
+1. https://www.simplilearn.com/ice9/free_resources_article_thumb/Firewall_2.png
+1. https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-firewall

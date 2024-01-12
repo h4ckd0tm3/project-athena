@@ -173,8 +173,8 @@ Nowadays, successfully finding and exploiting CSRF vulnerabilities often involve
 
 # Resources
 
-1. https://portswigger.net/web-security/cross-site-scripting
-1. https://owasp.org/www-community/attacks/xss/
-1. https://portswigger.net/web-security/csrf
-1. https://owasp.org/www-community/attacks/csrf
-1. https://blog.securityevaluators.com/cracking-javas-rng-for-csrf-ea9cacd231d2
+- https://portswigger.net/web-security/cross-site-scripting
+- https://owasp.org/www-community/attacks/xss/
+- https://portswigger.net/web-security/csrf
+- https://owasp.org/www-community/attacks/csrf
+- https://blog.securityevaluators.com/cracking-javas-rng-for-csrf-ea9cacd231d2

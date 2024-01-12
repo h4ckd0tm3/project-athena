@@ -85,5 +85,5 @@ Web applications often require a way to track users' interactions across multipl
 
 # Resources
 
-1. https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/http_basics.html
-1. https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+- https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/http_basics.html
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview

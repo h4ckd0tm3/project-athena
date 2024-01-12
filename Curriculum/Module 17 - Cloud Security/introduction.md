@@ -5,10 +5,15 @@ This module will provide an overview of cloud computing security and the best pr
 ## Learning Objectives
 
 - Explain the shared responsibility model in cloud computing
+
 - Which clouds fits you the best
+
 - Containerization
+
 - Basic concepts of identity and access management in a cloud environment
+
 - Best security practices in Cloud
+
   - Backup
   - Monitoring/Logging
   - Incident Managment
@@ -19,11 +24,11 @@ This module will provide an overview of cloud computing security and the best pr
 ## Topics Covered
 
 1. Overview of Cloud Security
-2. Pros/Cons
-2. Authentication/IAM
-4. Containerization
-5. Security Concepts
-5. Secure devops
-5. Certifications
+1. Pros/Cons
+1. Authentication/IAM
+1. Containerization
+1. Security Concepts
+1. Secure devops
+1. Certifications
 
 By the end of this module, students should be able to apply cloud security best practices to protect cloud infrastructure and data.

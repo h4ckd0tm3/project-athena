@@ -115,4 +115,4 @@ The Austrian and German legal systems both criminalize unauthorized data access 
 
 ## Resources:
 
-https://www.gesetze-im-internet.de/stgb/
+- https://www.gesetze-im-internet.de/stgb/

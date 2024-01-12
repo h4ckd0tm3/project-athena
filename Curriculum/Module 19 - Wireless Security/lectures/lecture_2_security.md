@@ -1,9 +1,11 @@
 # 2. WiFi Security Fundamentals
 
 ## 2.1 Introduction
+
 In our digital age, WiFi networks are ubiquitous, serving as the gateway to the internet for both personal and professional use. However, this convenience also brings vulnerability. This lecture aims to guide you through the essential steps and best practices to secure your WiFi network effectively.
 
 ## 2.2 Security Risks
+
 - **Unauthorized Access:** Unauthorized access occurs when individuals who are not authorized to use a WiFi network gain access to it.
 - **Data Theft:** Data theft refers to the unauthorized retrieval of data transmitted over the network. It can be particularly damaging if sensitive information is intercepted.
 - **Network Attacks:** Network attacks disrupt the normal functioning of a network, steal data, or damage network infrastructure.
@@ -12,6 +14,7 @@ In our digital age, WiFi networks are ubiquitous, serving as the gateway to the 
 **Note:** This lecture is only required to provide a basic understanding and brief overview of WiFi security fundamentals. Detailed security risks and attack vectors are covered in later lectures.
 
 ## 2.3 Security Protocols
+
 The first line of defense in securing a WiFi network involves choosing the right security protocol. These protocols are responsible for authentication (controlling the access to the network) and encryption (securing the integrity and confidentiality of data) in the network.
 
 - **WEP (Wired Equivalent Privacy):** Outdated and highly insecure, avoid using.
@@ -20,6 +23,7 @@ The first line of defense in securing a WiFi network involves choosing the right
 - **WPA3:** The latest standard, offering improved security features.
 
 ## 2.4 Further Considerations
+
 - **Strong Passwords:** Use a complex password for your WiFi network by mixing letters, numbers, and special characters. Avoid common words or easily guessable information.
 - **Change SSID Names:** Change the default SSID to something unique but not personally identifiable. Avoid names that make the network a more likely target for hackers.
 - **Disable WPS:** WPS can be a security vulnerability due to its PIN feature making it easier for devices to connect. Disable WPS to prevent potential brute-force attacks.
@@ -32,7 +36,9 @@ The first line of defense in securing a WiFi network involves choosing the right
 - **Education:** Educate yourself and employees about the risks and threats affecting wireless security. Only then it is possible to deal with threats.
 
 ## 2.3 Conclusion
+
 Securing a WiFi network is a critical task in safeguarding your digital life. By implementing these practices, you significantly reduce the risk of security breaches and protect sensitive information. Regular vigilance and adherence to these security measures will help ensure that your network remains a safe gateway to the digital world.
 
 # Sources
+
 - [https://en.wikipedia.org/wiki/Wireless_security](https://en.wikipedia.org/wiki/Wireless_security)

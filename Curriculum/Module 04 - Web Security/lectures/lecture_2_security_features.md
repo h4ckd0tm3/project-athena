@@ -108,7 +108,7 @@ For examples and more information see: https://developer.mozilla.org/en-US/docs/
 
 # Resources
 
-1. https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
-1. https://portswigger.net/web-security/cors/same-origin-policy
-1. https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
-1. https://portswigger.net/web-security/cross-site-scripting/content-security-policy
+- https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
+- https://portswigger.net/web-security/cors/same-origin-policy
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+- https://portswigger.net/web-security/cross-site-scripting/content-security-policy

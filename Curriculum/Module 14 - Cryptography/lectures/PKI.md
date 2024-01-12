@@ -2,15 +2,16 @@
 
 PKI, also know as Public Key Infrastructure, is a hierarchical system for issuing, distributing and verifying digital certificates.
 Digital certificates allow a trustworthy and secure association between various entities and their public keys.
-Public Key Infrastructure consists out of multiple components 
+Public Key Infrastructure consists out of multiple components
+
 - Registration Authority:
   - The registration authority is responsible for verifying certificate signing requests & forwarding them to the certificate authority.
   - When you want to get a digital ceriticate, you need to request a certificate signing here. As the registration authority needs to verify the user's identity, you need to provide personal information such as
-    - Personal information 
+    - Personal information
     - Proof of identity
     - Information about the company to issue the certificate to
 - Certificate Authority:
-  - The certificate authority is responsible for issuing the digital certificates. 
+  - The certificate authority is responsible for issuing the digital certificates.
   - After the registration authority validated the user's identity, the certificate authority will create the certificate to be issued to the user.
 - Validation Authority:
   - The validation authority is responsible for validating digital certificates, as well as providing information about it's validity.

@@ -555,4 +555,4 @@ Given his capture and sale of the credit card data, Lucas could face prosecution
 
 ## Resources
 
-https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=bundesnormen&Gesetzesnummer=10002296
+- https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=bundesnormen&Gesetzesnummer=10002296

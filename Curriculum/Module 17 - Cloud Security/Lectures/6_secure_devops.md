@@ -35,7 +35,7 @@ With the rise of container technologies, like Docker, and microservices, DevSecO
    - Control user access centrally.
    - Isolate containers and encrypt data between apps and services.
    - Implement secure API gateways to increase visibility.
-2. **CI/CD Process Security:**
+1. **CI/CD Process Security:**
    - Integrate security scanners for containers.
    - Automate security testing in the CI process.
    - Include security tests in the acceptance test process.

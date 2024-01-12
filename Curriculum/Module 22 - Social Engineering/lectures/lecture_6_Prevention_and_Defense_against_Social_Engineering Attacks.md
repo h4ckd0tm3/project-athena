@@ -8,10 +8,11 @@
 <span>
 In this section of the module Social Engineering, we will explore how to prevent and defend against social engineering attacks. 
 
-In an age where digital interactions are commonplace, social engineering attacks have emerged as a significant threat. These sophisticated attacks exploit human psychology rather than technological vulnerabilities, making them particularly challenging to detect and prevent. 
+In an age where digital interactions are commonplace, social engineering attacks have emerged as a significant threat. These sophisticated attacks exploit human psychology rather than technological vulnerabilities, making them particularly challenging to detect and prevent.
 
-This article aims to shed light on effective strategies for prevention and defense against such attacks, highlighting the importance of awareness and proactive measures in safeguarding personal and organizational security. Therefore it draws on insights from Christopher Hadnagy's book ["Social Engineering: The Science of Human Hacking"](https://www.amazon.com/Social-Engineering-Science-Human-Hacking/dp/111943338X) , focusing on a structured framework for defense against these attacks [1].
+This article aims to shed light on effective strategies for prevention and defense against such attacks, highlighting the importance of awareness and proactive measures in safeguarding personal and organizational security. Therefore it draws on insights from Christopher Hadnagy's book ["Social Engineering: The Science of Human Hacking"](https://www.amazon.com/Social-Engineering-Science-Human-Hacking/dp/111943338X) , focusing on a structured framework for defense against these attacks \[1\].
 </span>
+
 <div style="clear: both;"></div>
 
 ### Step 1: Learn to Identify Social Engineering Attacks
@@ -40,9 +41,11 @@ This article aims to shed light on effective strategies for prevention and defen
 - **Learning from Mistakes**: Use real-world examples and past breaches as learning tools.
 
 ### Conclusion
+
 The fight against social engineering is multifaceted, involving awareness, policy, culture, and continuous improvement. Christopher Hadnagy's M.A.P.P. (Mitigation and Prevention Plan) framework offers a structured approach to building a robust defense against these threats. By learning to identify attacks, developing realistic policies, performing regular checkups, and implementing effective security-awareness programs, organizations and individuals can significantly enhance their resilience against social engineering attacks.
 
 There is no silver bullet for preventing social engineering attacks. However, by following the steps outlined in this article, you can significantly reduce the risk of falling victim to these attacks. It is not the only possible approach, but it is a good starting point for anyone looking to improve their security posture.
 
 # Sources
+
 - **1 Book**: [Social Engineering: The Science of Human Hacking](https://www.amazon.com/Social-Engineering-Science-Human-Hacking/dp/111943338X) - By Christopher Hadnagy, 2018

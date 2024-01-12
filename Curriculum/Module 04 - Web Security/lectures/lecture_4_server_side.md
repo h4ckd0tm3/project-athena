@@ -68,8 +68,37 @@ The application directly uses user input in SQL, allowing query manipulation.
 
 > **For more Examples see:** https://portswigger.net/web-security/sql-injection#sql-injection-examples
 
+## Server-side request forgery (SSRF)
+
+Server-side request forgery is a web security vulnerability that allows an attacker to cause the server-side application to make requests to an unintended location.
+
+In a typical SSRF attack, the attacker might cause the server to make a connection to internal-only services within the organization's infrastructure. In other cases, they may be able to force the server to connect to arbitrary external systems. This could leak sensitive data, such as authorization credentials.
+
+### Impact of SSRF (Server-Side Request Forgery) Attacks
+
+1. **Unauthorized Access**: SSRF attacks can bypass access controls, potentially leading to unauthorized actions or data access within internal systems.
+
+1. **Data Exfiltration**: Sensitive data from the server or connected backend systems can be accessed, which may include personal, credential, or confidential information.
+
+1. **Internal Probing**: SSRF can be utilized to map internal networks, discover services on other machines, and identify further vulnerabilities within an internal network.
+
+1. **Arbitrary Command Execution**: Some SSRF vulnerabilities may lead to remote code execution, allowing attackers to run arbitrary commands on the server or related systems.
+
+1. **Secondary Attacks**: The server can be manipulated to make requests to external systems, leading to secondary attacks that appear to come from the organization itself.
+
+1. **Denial of Service**: SSRF attacks can result in service overload, potentially leading to denial of service for internal services.
+
+1. **Cross-site Scripting (XSS)**: If SSRF responses are reflected back to the client, it could be exploited for XSS attacks.
+
+#### Mitigation Strategies
+
+- Validate and sanitize all user inputs.
+- Minimize exposure of internal services.
+- Implement network segmentation and firewall rules to restrict internal network access.
+
 # Resources
 
-1. https://portswigger.net/web-security/sql-injection
-1. https://owasp.org/www-community/attacks/SQL_Injection
-1. https://book.hacktricks.xyz/pentesting-web/sql-injection
+- https://portswigger.net/web-security/sql-injection
+- https://owasp.org/www-community/attacks/SQL_Injection
+- https://book.hacktricks.xyz/pentesting-web/sql-injection
+- https://portswigger.net/web-security/ssrf

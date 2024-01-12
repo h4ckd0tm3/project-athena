@@ -26,7 +26,7 @@ Anti-virus software is a program or a set of programs that are specially designe
 
 Firewalls are network security devices which regulate traffic and ensure communication between computer networks. They act as a wall between a private network and the internet, or other networks outside the internal network. Firewalls may have physical or virtual character and they have become indispensable tool for compliance with organizational network security policies.
 
-_source: Overview [1.], Overview [2.]_
+_source: Overview \[1.\], Overview \[2.\]_
 
 ## Crucial Security Defense processes
 
@@ -46,18 +46,18 @@ Vulnerability management encompasses the practice of identifying exposures as we
 
 Risk management entails the identification, evaluating and controlling of risks to an organization’s capital and profit. These threats or risks may come from various sources such as financial problems, legal liabilities, poor decision-making, accidents and natural calamities.
 
-_source: Overview [1.], Overview [2.]_
+_source: Overview \[1.\], Overview \[2.\]_
 
 ## Difference to Red Teaming
 
 <img src="https://lh6.googleusercontent.com/rx-60dcB6d-PkM2PyP3WGhJHMs64U9MZqYZvURexA_uXryKYdBLsgjHpvFsXz1khxNdqXxiQsziaTQ3_-Beyb-mlsmQvelSVw6ADi8TqSB7XtWxa-N01TWGoeJjvpVUXmGsCiP5UBVitXQQ_erdNcns" alt="drawing" style="width:500px"/>
 
-_source: Overview [3.]_
+_source: Overview \[3.\]_
 
 ## References
 
 **Overview**
 
 1. https://picussecurity.com/resource/glossary/what-is-blue-teaming
-2. https://csrc.nist.gov/glossary/term/blue_team
-3. **img:** https://lh6.googleusercontent.com/rx-60dcB6d-PkM2PyP3WGhJHMs64U9MZqYZvURexA_uXryKYdBLsgjHpvFsXz1khxNdqXxiQsziaTQ3_-Beyb-mlsmQvelSVw6ADi8TqSB7XtWxa-N01TWGoeJjvpVUXmGsCiP5UBVitXQQ_erdNcns
+1. https://csrc.nist.gov/glossary/term/blue_team
+1. **img:** https://lh6.googleusercontent.com/rx-60dcB6d-PkM2PyP3WGhJHMs64U9MZqYZvURexA_uXryKYdBLsgjHpvFsXz1khxNdqXxiQsziaTQ3_-Beyb-mlsmQvelSVw6ADi8TqSB7XtWxa-N01TWGoeJjvpVUXmGsCiP5UBVitXQQ_erdNcns

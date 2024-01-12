@@ -35,6 +35,6 @@
 
 ## Resources
 
-1. **Websites**:
-   - [Shodan](https://www.shodan.io/)
-   - [Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hacking-database)
+- **Websites**:
+  - [Shodan](https://www.shodan.io/)
+  - [Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hacking-database)

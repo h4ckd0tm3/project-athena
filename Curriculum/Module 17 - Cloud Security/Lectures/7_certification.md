@@ -81,6 +81,6 @@ Whether safeguarding on-premises infrastructure, migrating to the cloud, or oper
 
 ### Sources
 
-* [Wikipedia ISO 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001)
-* [Wikipedia CISSP](https://en.wikipedia.org/wiki/Certified_information_systems_security_professional)
-* [isc2 CCSP](https://www.isc2.org/certifications/ccsp)
+- [Wikipedia ISO 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001)
+- [Wikipedia CISSP](https://en.wikipedia.org/wiki/Certified_information_systems_security_professional)
+- [isc2 CCSP](https://www.isc2.org/certifications/ccsp)

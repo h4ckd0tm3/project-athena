@@ -6,13 +6,13 @@
 - **aggregating** and **analyzing** event data from various sources like applications, endpoints, firewalls, and networks.
 - assists in quick identification of cyber threats through real-time threat monitoring and alerting capabilities.
 
-_source: Security Information and Event Management [1.]_
+_source: Security Information and Event Management \[1.\]_
 
 ## **Core Functions**
 
 <img src="https://securityintelligence.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/07/SIB_SOAR-SIEM_FeatureImage@2x-1200x630.png.webp" alt="drawing" style="width:600px"/>
 
-_source: Security Information and Event Management [6.]_
+_source: Security Information and Event Management \[6.\]_
 
 **Data Correlation and Analysis**
 
@@ -20,7 +20,7 @@ _source: Security Information and Event Management [6.]_
 - **Proactive Shift**: Recent trends show a shift towards more proactive measures, integrating new threat data for better issue identification.
 - **AI Integration**: Adoption of AI tools in SIEM systems helps narrow alert windows and automate security responses, moving from reactive to proactive responses.
 
-_source: Security Information and Event Management [3.]_
+_source: Security Information and Event Management \[3.\]_
 
 **Event Log Management**
 
@@ -28,9 +28,9 @@ _source: Security Information and Event Management [3.]_
 - **Evolution and Challenges**: Modern SIEM solutions are evolving to address dynamic cybersecurity challenges, with an emphasis on cloud-based solutions for flexibility.
 - **Combining with SOAR**: Integration with SOAR (Security Orchestration, Automation, and Response) tools extends the usability of SIEM tools, though they remain fundamentally reactive.
 
-_source: Security Information and Event Management [4.]_
+_source: Security Information and Event Management \[4.\]_
 
-_source: Security Information and Event Management [3.]_
+_source: Security Information and Event Management \[3.\]_
 
 **Monitoring and Alerting**
 
@@ -38,7 +38,7 @@ _source: Security Information and Event Management [3.]_
 - **Automation and AI**: Increasing use of AI and automation in SIEM and SOAR tools to save time and improve efficiency in threat response.
 - **Cloud Migration**: There is a growing trend to move SIEM and SOAR solutions to the cloud to support scalable resources and enhance automation capabilities.
 
-_source: Security Information and Event Management [4.], Security Information and Event Management [3.]_
+_source: Security Information and Event Management \[4.\], Security Information and Event Management \[3.\]_
 
 ## **Key Capabilities**
 
@@ -54,7 +54,7 @@ _source: Security Information and Event Management [4.], Security Information an
 - **Incident Response**
   - Combining SIEM with SOAR (Security Orchestration, Automation, and Response) extends the usability of these tools. However, even this combination is reactive rather than proactive, indicating a need for solutions that fill these gaps, such as extended detection and response (XDR).
 
-_source: Security Information and Event Management [3.], Security Information and Event Management [5.]_
+_source: Security Information and Event Management \[3.\], Security Information and Event Management \[5.\]_
 
 ## **Benefits**
 
@@ -65,7 +65,7 @@ _source: Security Information and Event Management [3.], Security Information an
 - **Diverse Applications**
   - SIEM can be used for operations support, troubleshooting, and other activities revolving around data or historical logs
 
-_source: Security Information and Event Management [5.]_
+_source: Security Information and Event Management \[5.\]_
 
 ## **Challenges in Implementing SIEM**
 
@@ -74,7 +74,7 @@ _source: Security Information and Event Management [5.]_
 - Initial and ongoing costs
 - Difficulty in differentiating between regular activities and incidents.
 
-_source: Security Information and Event Management [5.]_
+_source: Security Information and Event Management \[5.\]_
 
 ## Solution Comparison
 
@@ -90,15 +90,15 @@ _source: Security Information and Event Management [5.]_
 | Logpoint SIEM                     | -                               | AI-driven anomaly detection, UEBA, integrated SOAR                         | Linux, AWS, SaaS            | -                                                           |
 | SolarWinds Security Event Manager | Log Aggregation                 | Wide range of log management features                                      | -                           | -                                                           |
 
-_source: Security Information and Event Management [2.]_
+_source: Security Information and Event Management \[2.\]_
 
 ## References
 
 **Security Information and Event Management**
 
 1. https://www.selecthub.com/siem/siem/
-2. https://www.esecurityplanet.com/products/siem-tools/#:~:text=,Premises
-3. https://securityintelligence.com/articles/soar-and-siem-in-2023-key-trends-and-new-changes/
-4. https://www.manageengine.com/log-management/siem/siem-functions.html
-5. https://www.itsasap.com/blog/pros-cons-siem
-6. **img:** https://securityintelligence.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/07/SIB_SOAR-SIEM_FeatureImage@2x-1200x630.png.webp
+1. https://www.esecurityplanet.com/products/siem-tools/#:~:text=,Premises
+1. https://securityintelligence.com/articles/soar-and-siem-in-2023-key-trends-and-new-changes/
+1. https://www.manageengine.com/log-management/siem/siem-functions.html
+1. https://www.itsasap.com/blog/pros-cons-siem
+1. **img:** https://securityintelligence.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/07/SIB_SOAR-SIEM_FeatureImage@2x-1200x630.png.webp

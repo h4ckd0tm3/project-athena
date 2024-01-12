@@ -6,7 +6,7 @@
 - Nowadays a must-have to network security defenses, especially for detecting, tracking, and blocking malicious traffic and malware.
 - IDPS has become part of advanced tools like next-generation firewalls (NGFW), SIEM, and Extended Detection and Response (XDR)
 
-_source: Intrusion Detection and Prevention Systems [1.]_
+_source: Intrusion Detection and Prevention Systems \[1.\]_
 
 ## **IDS vs. IPS**
 
@@ -16,7 +16,7 @@ Intrusion Detection Systems (IDS) → **diagnostic tool**
 
 Intrusion Prevention Systems (IPS) → **diagnostic and incident response tool**
 
-_source: Intrusion Detection and Prevention Systems [3.]_
+_source: Intrusion Detection and Prevention Systems \[3.\]_
 
 **Intrusion Detection Systems (IDS)**
 
@@ -25,33 +25,33 @@ _source: Intrusion Detection and Prevention Systems [3.]_
    - identifies potential threats by comparing network activities to →
      - **previously recorded intrusion patterns (database)**
      - **baseline**
-2. **Detection Techniques**
+1. **Detection Techniques**
    - **Signature-Based Detection**
      - has a predefined database of attack patterns and signatures.
      - highly effective against known attacks but cannot detect new, unidentified attacks.
    - **Anomaly-Based Detection**
      - utilizing a baseline of normal network behavior, identifies deviations that could indicate a security threat.
      - often enhanced with AI and machine learning, can detect previously unknown attacks but are more prone to false positives.
-3. **Limitations**
+1. **Limitations**
    - IDS primarily focuses on detection and alerting (not like IPS)
    - does not take action to block or prevent the detected threats → which means that human intervention or additional security measures are necessary for response.
 
-_source: Intrusion Detection and Prevention Systems [2.]_
+_source: Intrusion Detection and Prevention Systems \[2.\]_
 
 **Intrusion Prevention Systems (IPS)**
 
 1. **Functionality**
    - extends the capabilities of IDS → taking proactive measures
    - analyzes network traffic content and responds to exploits by blocking malicious traffic and preventing it from interacting with the network.
-2. **Detection Techniques**
+1. **Detection Techniques**
    - uses both signature-based and anomaly-based detection.
-3. **Advantage Over IDS**
+1. **Advantage Over IDS**
    - the advantage is obvious → is both a diagnostic and incident response tool
-4. **Potential Disadvantages**
+1. **Potential Disadvantages**
    - the possibility of more false positives due to its proactive blocking measures.
    - it may incorrectly identify legitimate activities as threats, leading to unintended blocking of traffic.
 
-_source: Intrusion Detection and Prevention Systems [3.]_
+_source: Intrusion Detection and Prevention Systems \[3.\]_
 
 ## **A Combined Approach (IDPS)**
 
@@ -59,7 +59,7 @@ In many security infrastructures, IDS and IPS are combined into a single solutio
 
 In summary, IDS and IPS serve complementary roles in network security. IDS excels at detecting and alerting, while IPS extends this functionality by actively preventing identified threats.
 
-_source: Intrusion Detection and Prevention Systems [1.]_
+_source: Intrusion Detection and Prevention Systems \[1.\]_
 
 ## **Types of IDPS**
 
@@ -69,14 +69,14 @@ _source: Intrusion Detection and Prevention Systems [1.]_
 - focuses on protecting specific endpoints → scanning system files, unauthorized changes and processes running on the system
 - effective in monitoring internal activities of a host
 
-_source: Intrusion Detection and Prevention Systems [1.]_
+_source: Intrusion Detection and Prevention Systems \[1.\]_
 
 **Network-Based IDPS (NIDPS)**:
 
 - monitors network traffic (entire network segment or subnet)
 - It's deployed in strategic network locations
 
-_source: Intrusion Detection and Prevention Systems [1.]_
+_source: Intrusion Detection and Prevention Systems \[1.\]_
 
 ## **Recent Advancements in IDPS Technology**
 
@@ -88,7 +88,7 @@ _source: Intrusion Detection and Prevention Systems [1.]_
   - and Extended Detection and Response (XDR)
 - This integration allows for a more comprehensive security posture, combining the strengths of each system to offer enhanced detection and prevention capabilities.
 
-_source: Intrusion Detection and Prevention Systems [1.]_
+_source: Intrusion Detection and Prevention Systems \[1.\]_
 
 **Adoption of Machine Learning and AI**
 
@@ -97,14 +97,14 @@ _source: Intrusion Detection and Prevention Systems [1.]_
 - Adjusts learnings practices and behaviours in real-time
 - Allows IDPS to adapt quickly to new threats
 
-_source: Intrusion Detection and Prevention Systems [4.], Intrusion Detection and Prevention Systems [5.]_
+_source: Intrusion Detection and Prevention Systems \[4.\], Intrusion Detection and Prevention Systems \[5.\]_
 
 **Industry Cloud Platforms**
 
 - industry-specific cloud platforms offers scalability and functionality to unique industry needs.
 - a more targeted approach → enhancing the effectiveness of IDPS in specific operational contexts.
 
-_source: Intrusion Detection and Prevention Systems [5.]_
+_source: Intrusion Detection and Prevention Systems \[5.\]_
 
 ## Product Comparison
 
@@ -124,14 +124,14 @@ _source: Intrusion Detection and Prevention Systems [5.]_
 | SolarWinds Security Event Manager    | -              | -                                | -                         | -                           | Network visibility         | Compliance reporting         |
 | Security Onion                       | -              | -                                | -                         | -                           | Comprehensive coverage     | Third-party tool integration |
 
-_source: Intrusion Detection and Prevention Systems [1.]_
+_source: Intrusion Detection and Prevention Systems \[1.\]_
 
 ## References
 
 **Intrusion Detection and Prevention Systems**
 
 1. https://www.esecurityplanet.com/products/intrusion-detection-and-prevention-systems/
-2. https://www.hindawi.com/journals/js/2023/6048087/
-3. https://www.comparitech.com/net-admin/ids-vs-ips/
-4. https://kirkpatrickprice.com/blog/idps-techniques/
-5. https://rossum.ai/blog/2023-idp-trends/#:~:text=,continue
+1. https://www.hindawi.com/journals/js/2023/6048087/
+1. https://www.comparitech.com/net-admin/ids-vs-ips/
+1. https://kirkpatrickprice.com/blog/idps-techniques/
+1. https://rossum.ai/blog/2023-idp-trends/#:~:text=,continue

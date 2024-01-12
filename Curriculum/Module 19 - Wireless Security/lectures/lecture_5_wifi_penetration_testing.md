@@ -35,10 +35,10 @@ Now that we know all the tools we need, we can start using them and attack WiFi 
 The process of password cracking in the context of WiFi networks typically involves the following steps:
 
 1. **Monitoring and Capturing Packets**: Using tools like Aircrack-ng or Kismet, monitor and capture the packets from the targeted WiFi network. This often involves setting your device to monitor mode to listen for all wireless traffic in range.
-2. **Targeting a Network**: Identify the network whose password you wish to crack. This involves capturing the handshake process between a legitimate user and the access point when the user is authenticating.
-3. **Capturing the Handshake**: Wait for a user to authenticate to the network to capture the handshake. This handshake contains the encrypted form of the password.
-4. **Cracking the Password**: Use tools like Aircrack-ng to crack the password. This can be done using brute-force attacks, dictionary attacks, or other methods. The tool attempts to decrypt the password by comparing the handshake against possible password combinations.
-5. **Accessing the Network**: Once the password is successfully cracked, you can access the WiFi network using the discovered password.
+1. **Targeting a Network**: Identify the network whose password you wish to crack. This involves capturing the handshake process between a legitimate user and the access point when the user is authenticating.
+1. **Capturing the Handshake**: Wait for a user to authenticate to the network to capture the handshake. This handshake contains the encrypted form of the password.
+1. **Cracking the Password**: Use tools like Aircrack-ng to crack the password. This can be done using brute-force attacks, dictionary attacks, or other methods. The tool attempts to decrypt the password by comparing the handshake against possible password combinations.
+1. **Accessing the Network**: Once the password is successfully cracked, you can access the WiFi network using the discovered password.
 
 ### See it in action
 
@@ -49,10 +49,10 @@ The process of password cracking in the context of WiFi networks typically invol
 An Evil Twin attack involves setting up a rogue access point that appears to be a legitimate part of the targeted WiFi network:
 
 1. **Setting Up a Rogue Access Point**: Use a tool like Kismet to identify the SSID and security protocol of the target WiFi network. Then set up a rogue access point with the same SSID and security settings using a tool like Aircrack-ng.
-2. **Deauthentication Attack**: Force users off the legitimate network using a deauthentication attack. This can be done using packet injection tools to disrupt the communication between the user and the legitimate access point.
-3. **Redirecting Users to the Rogue AP**: Users disconnected from the legitimate access point will often automatically try to reconnect. Since your rogue AP has the same SSID, some devices may connect to it instead.
-4. **Capturing Information**: Once a user is connected to the rogue AP, their internet traffic goes through your network, allowing you to capture sensitive information like login credentials.
-5. **MitM Capabilities**: With the user connected to your rogue AP, you can potentially alter or intercept their communications, conduct further attacks, or gain unauthorized access to secure areas of their network.
+1. **Deauthentication Attack**: Force users off the legitimate network using a deauthentication attack. This can be done using packet injection tools to disrupt the communication between the user and the legitimate access point.
+1. **Redirecting Users to the Rogue AP**: Users disconnected from the legitimate access point will often automatically try to reconnect. Since your rogue AP has the same SSID, some devices may connect to it instead.
+1. **Capturing Information**: Once a user is connected to the rogue AP, their internet traffic goes through your network, allowing you to capture sensitive information like login credentials.
+1. **MitM Capabilities**: With the user connected to your rogue AP, you can potentially alter or intercept their communications, conduct further attacks, or gain unauthorized access to secure areas of their network.
 
 ### See it in action
 

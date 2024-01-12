@@ -19,13 +19,13 @@ In order to avoid your keys being guessed via dictionaries, you are encouraged t
 
 ### Rainbow Tables
 
-
 Rainbow table attacks involve the use of precomputed tables that map input values (not exclusively passwords) to hash values. Instead of repeatedly hashing potential inputs during an attack, the attacker can quickly look up the hash in a precomputed table to find the corresponding original input.
 Rainbow tables offer a tradeoff between performance and storage:
+
 - Compared to brute-force attacks, they require much less computational power.
 - Compared to dictionary attacks containing a combination of nearly every single possible key, they demand much less storage.
 - To prevent rainbow table attacks, you should use techniques such as salting. Salting involves adding random data to the password before hashing it. The salt should be changed regulary, ideally after each password.
-That way, rainbow tables become useless, as the hash of the password cannot directly lead to the original password.
+  That way, rainbow tables become useless, as the hash of the password cannot directly lead to the original password.
 
 ### Side-Channel Attacks
 

@@ -19,24 +19,24 @@ Network security in cloud computing focuses on safeguarding data as it traverses
 
 - **Virtual Private Clouds (VPCs):**
 
-  * AWS Virtual Private Cloud (VPC)
+  - AWS Virtual Private Cloud (VPC)
 
-  - Azure Virtual Network
-  - Google Cloud Virtual Private Cloud (VPC)
+  * Azure Virtual Network
+  * Google Cloud Virtual Private Cloud (VPC)
 
 - **Network Access Control Lists (NACLs):**
 
-  * AWS Network ACLs
+  - AWS Network ACLs
 
-  - Azure Network Security Groups (NSGs)
-  - Google Cloud VPC Firewall Rules
+  * Azure Network Security Groups (NSGs)
+  * Google Cloud VPC Firewall Rules
 
 - **DDoS Mitigation:**
 
-  * AWS Shield
+  - AWS Shield
 
-  - Azure DDoS Protection
-  - Google Cloud Armor
+  * Azure DDoS Protection
+  * Google Cloud Armor
 
 ### 2. Logging and Monitoring:
 
@@ -67,34 +67,34 @@ The significance of logging and monitoring encompasses several key dimensions:
 
 - **Centralized Logging:**
 
-  * Prometheus
-  * AWS CloudWatch Logs
-  
-  - Azure Monitor
-  - Google Cloud Logging
-  
+  - Prometheus
+  - AWS CloudWatch Logs
+
+  * Azure Monitor
+  * Google Cloud Logging
+
 - **Real-time Monitoring:**
 
-  * AWS CloudWatch
+  - AWS CloudWatch
 
-  - Azure Monitor
-  - Google Cloud Monitoring
-  - Uptime Kuma
-  - Grafana
+  * Azure Monitor
+  * Google Cloud Monitoring
+  * Uptime Kuma
+  * Grafana
 
 - **Security Information and Event Management (SIEM):**
 
-  * Splunk
+  - Splunk
 
-  - ELK Stack (Elasticsearch, Logstash, Kibana)
-  - IBM QRadar
+  * ELK Stack (Elasticsearch, Logstash, Kibana)
+  * IBM QRadar
 
 - **Audit Trails:**
 
-  * AWS CloudTrail
+  - AWS CloudTrail
 
-  - Azure Activity Log
-  - Google Cloud Audit Logging
+  * Azure Activity Log
+  * Google Cloud Audit Logging
 
 ### 3. Incident Response Planning:
 
@@ -113,31 +113,31 @@ Incident response planning involves preparing for and responding to security inc
 
 - **Incident Response Team:**
 
-  * PagerDuty
+  - PagerDuty
 
-  - ServiceNow Security Incident Response
-  - IBM Resilient
+  * ServiceNow Security Incident Response
+  * IBM Resilient
 
 - **Incident Playbooks:**
 
-  * Atlassian Jira
+  - Atlassian Jira
 
-  - Swimlane
-  - Tines
+  * Swimlane
+  * Tines
 
 - **Tabletop Exercises:**
 
-  * AttackIQ
+  - AttackIQ
 
-  - Cyberbit Range
-  - Scythe
+  * Cyberbit Range
+  * Scythe
 
 - **Post-Incident Analysis:**
 
-  * FireEye Helix
+  - FireEye Helix
 
-  - Varonis Incident Response
-  - Cybereason
+  * Varonis Incident Response
+  * Cybereason
 
 ### 4. Data Backup and Recovery:
 
@@ -156,31 +156,31 @@ Data backup and recovery strategies are crucial for safeguarding data against ac
 
 - **Regular Backups:**
 
-  * AWS Backup
+  - AWS Backup
 
-  - Azure Backup
-  - Google Cloud Storage Transfer Service
+  * Azure Backup
+  * Google Cloud Storage Transfer Service
 
 - **Offsite Backups:**
 
-  * Backblaze B2 Cloud Storage
+  - Backblaze B2 Cloud Storage
 
-  - Veeam Backup & Replication
-  - Druva
+  * Veeam Backup & Replication
+  * Druva
 
 - **Automated Backup Policies:**
 
-  * Commvault
+  - Commvault
 
-  - Rubrik
-  - Acronis
+  * Rubrik
+  * Acronis
 
 - **Data Encryption:**
 
-  * Symantec Data Loss Prevention
+  - Symantec Data Loss Prevention
 
-  - Varonis Data Security Platform
-  - McAfee Total Protection for Data Loss Prevention
+  * Varonis Data Security Platform
+  * McAfee Total Protection for Data Loss Prevention
 
 ### 5. Patch Management:
 
@@ -199,31 +199,31 @@ Patch management involves keeping software and systems up-to-date with the lates
 
 - **Automated Patching:**
 
-  * AWS Systems Manager
+  - AWS Systems Manager
 
-  - Azure Update Management
-  - Google Cloud OS Patch Management
+  * Azure Update Management
+  * Google Cloud OS Patch Management
 
 - **Patch Testing:**
 
-  * Jenkins
+  - Jenkins
 
-  - Ansible
-  - GitLab CI/CD
+  * Ansible
+  * GitLab CI/CD
 
 - **Regular Audits:**
 
-  * Nessus
+  - Nessus
 
-  - Qualys
-  - OpenVAS
+  * Qualys
+  * OpenVAS
 
 - **Vendor Notifications:**
 
-  * National Vulnerability Database (NVD)
+  - National Vulnerability Database (NVD)
 
-  - US-CERT
-  - Common Vulnerabilities and Exposures (CVE)
+  * US-CERT
+  * Common Vulnerabilities and Exposures (CVE)
 
 ### 6. Threat Intelligence:
 
@@ -242,31 +242,31 @@ Threat intelligence involves gathering and analyzing information about potential
 
 - **Threat Feeds:**
 
-  * AlienVault Open Threat Exchange (OTX)
+  - AlienVault Open Threat Exchange (OTX)
 
-  - IBM X-Force Exchange
-  - Anomali ThreatStream
+  * IBM X-Force Exchange
+  * Anomali ThreatStream
 
 - **Integration with Security Tools:**
 
-  * ThreatConnect
+  - ThreatConnect
 
-  - Recorded Future
-  - Palo Alto Networks AutoFocus
+  * Recorded Future
+  * Palo Alto Networks AutoFocus
 
 - **Continuous Monitoring:**
 
-  * MISP (Malware Information Sharing Platform & Threat Sharing)
+  - MISP (Malware Information Sharing Platform & Threat Sharing)
 
-  - ThreatQ
-  - ThreatCrowd
+  * ThreatQ
+  * ThreatCrowd
 
 - **Information Sharing:**
 
-  * ISACs (Information Sharing and Analysis Centers)
+  - ISACs (Information Sharing and Analysis Centers)
 
-  - Cyware Threat Intelligence eXchange (CTIX)
-  - FS-ISAC (Financial Services Information Sharing and Analysis Center)
+  * Cyware Threat Intelligence eXchange (CTIX)
+  * FS-ISAC (Financial Services Information Sharing and Analysis Center)
 
 ### 7. Testing
 
@@ -277,18 +277,22 @@ Testing is a crucial part of a strong security plan for cloud systems. It involv
 ### The Role of Testing Methodologies:
 
 1. **Red Teaming:**
+
    - *Objective:* Delve into intricate simulations of cyber-attacks, mirroring real-world adversaries, to rigorously assess the efficacy of existing defense mechanisms.
    - *Approach:* Employ advanced tactics, techniques, and procedures to uncover potential weaknesses and enhance adaptive security strategies.
 
-2. **Penetration Testing:**
+1. **Penetration Testing:**
+
    - *Objective:* Undertake controlled security assessments, orchestrating ethically driven attacks, to uncover and address vulnerabilities across specific systems, applications, or network segments.
    - *Approach:* Simulate real-world attack scenarios, enabling a granular evaluation of the security posture and the identification of areas for improvement.
 
-3. **Vulnerability Scanning:**
+1. **Vulnerability Scanning:**
+
    - *Objective:* Routinely scan the cloud infrastructure and applications, deploying automated tools to systematically identify and remediate vulnerabilities before they can be exploited.
    - *Approach:* Employ continuous assessments to proactively address known security weaknesses, fostering a proactive and fortified security landscape.
 
-4. **Security Audits:**
+1. **Security Audits:**
+
    - *Objective:* Conduct thorough security audits to assess compliance with stringent security policies and industry standards.
    - *Approach:* Evaluate the effectiveness of security controls, ensuring adherence to policies, and benchmarking against industry best practices.
 
@@ -302,24 +306,28 @@ Testing is a crucial part of a strong security plan for cloud systems. It involv
 #### Tools:
 
 - **Red Teaming:**
-  * Cobalt Strike
-  * Red Team Toolkit (RTT)
-  * Atomic Red Team
+
+  - Cobalt Strike
+  - Red Team Toolkit (RTT)
+  - Atomic Red Team
 
 - **Penetration Testing:**
-  * Metasploit
-  * Burp Suite
-  * OWASP ZAP (Zed Attack Proxy)
+
+  - Metasploit
+  - Burp Suite
+  - OWASP ZAP (Zed Attack Proxy)
 
 - **Vulnerability Scanning:**
-  * Nexpose
-  * OpenVAS
-  * Qualys Vulnerability Management
+
+  - Nexpose
+  - OpenVAS
+  - Qualys Vulnerability Management
 
 - **Security Audits:**
-  * Lynis
-  * OpenSCAP
-  * Nessus Compliance Checks
+
+  - Lynis
+  - OpenSCAP
+  - Nessus Compliance Checks
 
 #### Continuous Improvement:
 
@@ -334,26 +342,32 @@ The shared responsibility model is a foundational concept in cloud computing, de
 ### Key Components of the Shared Responsibility Model:
 
 1. **Infrastructure Security:**
+
    - *CSP Responsibility:* Secure physical data centers, networking infrastructure, and overall service availability.
    - *Customer Responsibility:* Configure and secure virtual machines, networks, and other resources deployed in the cloud.
 
-2. **Platform Security:**
+1. **Platform Security:**
+
    - *CSP Responsibility:* Manage and secure the underlying cloud infrastructure, including hypervisors and host operating systems.
    - *Customer Responsibility:* Secure and update operating systems, middleware, and runtime environments within their virtual machines or containers.
 
-3. **Identity and Access Management (IAM):**
+1. **Identity and Access Management (IAM):**
+
    - *CSP Responsibility:* Provide tools for identity management, authentication, and access control.
    - *Customer Responsibility:* Manage user access, permissions, and authentication processes for applications and data.
 
-4. **Data Security:**
+1. **Data Security:**
+
    - *CSP Responsibility:* Ensure security and durability of underlying storage infrastructure.
    - *Customer Responsibility:* Encrypt sensitive data, set access controls, and manage data retention policies.
 
-5. **Applications and Endpoints:**
+1. **Applications and Endpoints:**
+
    - *CSP Responsibility:* Offer a secure platform for hosting applications and may provide security features.
    - *Customer Responsibility:* Develop, secure, and monitor applications, as well as ensure endpoint security.
 
-6. **Security Monitoring and Incident Response:**
+1. **Security Monitoring and Incident Response:**
+
    - *CSP Responsibility:* Monitor overall infrastructure health and security, provide tools for incident detection.
    - *Customer Responsibility:* Monitor applications, data, and user activities, and respond to security incidents related to their resources.
 
@@ -374,17 +388,13 @@ The shared responsibility model is a foundational concept in cloud computing, de
 - **Understanding Boundaries:** Both CSP and customers must have a clear understanding of the demarcation lines for their respective responsibilities.
 - **Evolution of Threat Landscape:** Regularly reassess and update security measures to adapt to the evolving threat landscape.
 
-
-
-
-
 ### Sources
 
-* [Trend Micro](https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/cloud-security-key-concepts-threats-and-solutions)
-* [GCP Network Security](https://cloud.google.com/learn/what-is-cloud-network-security?hl=en)
-* [Java Challengers Logging & Monitoring](https://javachallengers.com/logging-and-monitoring/)
-* [eccouncil (general)](https://www.eccouncil.org/cybersecurity/what-is-cloud-security/)
-*  [opentext backup](https://www.opentext.com/what-is/cloud-backup)
-* [ibm backup](https://www.ibm.com/topics/backup-disaster-recovery)
-* [thenewstack patching](https://thenewstack.io/what-is-cloud-patch-management/)
-* [bearingpoint pentesting](https://bearingpoint.services/besecure/en/pentests/)
+- [Trend Micro](https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/cloud-security-key-concepts-threats-and-solutions)
+- [GCP Network Security](https://cloud.google.com/learn/what-is-cloud-network-security?hl=en)
+- [Java Challengers Logging & Monitoring](https://javachallengers.com/logging-and-monitoring/)
+- [eccouncil (general)](https://www.eccouncil.org/cybersecurity/what-is-cloud-security/)
+- [opentext backup](https://www.opentext.com/what-is/cloud-backup)
+- [ibm backup](https://www.ibm.com/topics/backup-disaster-recovery)
+- [thenewstack patching](https://thenewstack.io/what-is-cloud-patch-management/)
+- [bearingpoint pentesting](https://bearingpoint.services/besecure/en/pentests/)

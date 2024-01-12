@@ -10,11 +10,11 @@ https://cloud.google.com/iam
 
 ![](https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_copy_3.max-2000x2000.jpg)
 
-
 - **Roles**: Predefined sets of permissions that determine what actions are allowed on resources.
-    - **Primitive Roles**: Basic roles like Owner, Editor, Viewer.
-    - **Predefined Roles**: Specific to GCP services (e.g., `roles/pubsub.publisher`, CloudSQL Admin/Viewer)
-    - **Custom Roles**: Customized sets of permissions.
+
+  - **Primitive Roles**: Basic roles like Owner, Editor, Viewer.
+  - **Predefined Roles**: Specific to GCP services (e.g., `roles/pubsub.publisher`, CloudSQL Admin/Viewer)
+  - **Custom Roles**: Customized sets of permissions.
 
 - **Policies**: Define who (identity) has what access (role) for resources.
 
@@ -70,8 +70,9 @@ https://www.microsoft.com/de-de/security/business/identity-access/microsoft-entr
 ### 3.2. **Role-Based Access Control (RBAC)**
 
 - **Roles**: Collections of permissions that can be assigned to users, groups, or service principals.
-    - Built-in roles like Owner, Contributor, Reader.
-    - Custom roles.
+
+  - Built-in roles like Owner, Contributor, Reader.
+  - Custom roles.
 
 - **Scope**: Levels at which access can be granted - Management group, Subscription, Resource group, Resource.
 

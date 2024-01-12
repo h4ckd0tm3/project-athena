@@ -23,5 +23,5 @@
 
 ## Additional Resources
 
-1. **Books**:
-   - “The Art of Deception: Controlling the Human Element of Security” by Kevin D. Mitnick.
+- **Books**:
+  - “The Art of Deception: Controlling the Human Element of Security” by Kevin D. Mitnick.
