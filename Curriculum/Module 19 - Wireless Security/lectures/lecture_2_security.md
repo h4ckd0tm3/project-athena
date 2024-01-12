@@ -1,4 +1,4 @@
-# 2. WiFi Security Fundamentals
+# WiFi Security Fundamentals
 
 ## 2.1 Introduction
 

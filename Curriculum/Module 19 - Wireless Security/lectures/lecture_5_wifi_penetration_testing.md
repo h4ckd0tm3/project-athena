@@ -1,4 +1,4 @@
-# 5. Wireless Penetration Testing Tools and Techniques
+# Wireless Penetration Testing Tools and Techniques
 
 # 5.1 Introduction
 

@@ -1,4 +1,4 @@
-# 1. The Wireless Network Architecture
+# The Wireless Network Architecture
 
 ## 1.1 Introduction
 

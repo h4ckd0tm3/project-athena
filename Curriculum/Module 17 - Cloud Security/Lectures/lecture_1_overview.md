@@ -1,4 +1,4 @@
-## 1. Overview of Cloud Security
+# Overview of Cloud Security
 
 Cloud security encompasses policies, technologies, and procedures designed to safeguard data, applications, and infrastructure in cloud environments. As the digital shift continues to shape the technological landscape, the importance of robust cloud security measures becomes increasingly evident.
 

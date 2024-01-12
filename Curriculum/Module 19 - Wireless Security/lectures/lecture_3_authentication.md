@@ -1,4 +1,4 @@
-# 3. WiFi Authentication and Encryption Mechanisms
+# WiFi Authentication and Encryption Mechanisms
 
 ## 3.1 Introduction
 

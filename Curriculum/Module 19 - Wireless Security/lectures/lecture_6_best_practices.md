@@ -1,4 +1,4 @@
-# 6. Best Practices for Securing Wireless Networks
+# Best Practices for Securing Wireless Networks
 
 # 6.1 Introduction
 

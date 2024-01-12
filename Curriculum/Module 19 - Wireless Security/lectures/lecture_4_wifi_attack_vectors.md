@@ -1,4 +1,4 @@
-# 4. WiFi Attack Vectors
+# WiFi Attack Vectors
 
 # 4.1 Introduction
 

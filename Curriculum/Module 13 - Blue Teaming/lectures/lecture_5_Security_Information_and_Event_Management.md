@@ -1,4 +1,4 @@
-# **Security Information and Event Management (SIEM)**
+# Security Information and Event Management (SIEM)
 
 ## **Introduction**
 
