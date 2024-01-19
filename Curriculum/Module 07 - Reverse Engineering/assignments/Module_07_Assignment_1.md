@@ -22,7 +22,7 @@ This assignment aims to deepen your understanding of the reverse engineering pro
 
 1. **Report with key:**
    - Submit a short writeup of what the program does, your username as stated above and the valid key for your username.
-   - The report does not need to be in pdf format, a simple markdown file is enough.
+   - The report should be in PDF format
    - Ensure your name, date, and the title of your writeup are included.
 
 ### Evaluation Criteria:

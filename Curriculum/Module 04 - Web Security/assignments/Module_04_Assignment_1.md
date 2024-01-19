@@ -59,3 +59,43 @@ The purpose of this assignment is to hone your hands-on skills in web security b
    - Thoroughness in exploring and documenting each lab.
 
 By undertaking this assignment, you will not only improve your practical skills in web security but also your ability to document and communicate complex processes, which is invaluable in the cybersecurity field.
+
+### Bonus Points Task: Advanced Lab Completion
+
+#### Objective:
+Earn bonus points by challenging yourself with more advanced labs. This task will demonstrate your ability to tackle higher complexity problems and deepen your practical understanding of web security.
+
+#### Instructions:
+
+1. **Advanced Lab Selection:**
+   - Return to [PortSwigger's Web Security Academy](https://portswigger.net/web-security/all-labs).
+   - From each category, select at least one additional lab with the difficulty rating of "PRACTITIONER" or higher.
+
+2. **Lab Completion:**
+   - Successfully complete the chosen advanced labs.
+   - Pay particular attention to the complexity and the advanced techniques required for these labs.
+
+3. **Enhanced Write-up:**
+   - Provide detailed write-ups for each additional lab completed.
+   - Follow the same format as your previous write-ups:
+     - **Introduction:** Brief overview of the lab's objectives and challenges.
+     - **Approach:** Detailed description of your approach to solving the lab.
+     - **Challenges Faced:** Discuss any additional challenges faced due to the higher difficulty and how you overcame them.
+     - **Conclusion:** Reflect on what you learned from completing these more advanced labs.
+
+### Additional Submission Guidelines for Bonus Points:
+
+- Include these advanced lab write-ups in your report as an additional section or append them to the respective categories.
+- Clearly mark these sections as "Bonus Points Task: Advanced Lab Completion" for easy identification.
+
+### Evaluation Criteria for Bonus Points:
+
+1. **Lab Completion and Complexity:**
+   - Successful completion of higher-difficulty labs.
+   - Understanding and application of advanced techniques.
+
+2. **Depth and Quality of Write-ups:**
+   - Clarity, detail, and technical accuracy in the write-ups.
+   - Insightfulness in the reflection of challenges and learnings.
+
+Completing these advanced labs will not only earn you bonus points but also significantly enhance your skill set in web security, preparing you for more complex and real-world scenarios.
