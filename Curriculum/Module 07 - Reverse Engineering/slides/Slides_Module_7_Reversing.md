@@ -1,7 +1,11 @@
 ---
 marp: true
-theme: gaia
-class: invert
+theme: project-athena
+paginate: true
+_paginate: false
+title: Module 07 - Reversing
+header: Module 07 - Reversing
+footer: More on [@h4ckd0tm3/project-athena](https://github.com/h4ckd0tm3/project-athena/)
 ---
 
 # **Reverse Engineering 101**
@@ -10,7 +14,7 @@ As I like to call it:
 
 ![bg right 80%](./figures/intro.png)
 
-______________________________________________________________________
+---
 
 # **Assembly Recap**
 
@@ -23,7 +27,7 @@ Special registers:
 `rbp`: Stack frame base pointer
 `cr3`: Virtual memory selector for a process
 
-______________________________________________________________________
+---
 
 # **Assembly Recap**
 
@@ -35,7 +39,7 @@ We can access certain bits of registers individually:
 This allows for backwards compatability
 32-bit programs can just use `eax`
 
-______________________________________________________________________
+---
 
 # **Assembly Recap**
 
@@ -48,7 +52,7 @@ Instruction format:
 
 Online (dis)assembler: https://defuse.ca/online-x86-assembler.htm#disassembly
 
-______________________________________________________________________
+---
 
 # **Assembly Recap**
 
@@ -60,7 +64,7 @@ ______________________________________________________________________
 => rbx = 0x400000 `mov rax, [0x400000]`
 => `rax = *0x400000;`
 
-______________________________________________________________________
+---
 
 # **Assembly Recap**
 
@@ -72,7 +76,7 @@ ______________________________________________________________________
 `and rax, rbx` ...
 ...
 
-______________________________________________________________________
+---
 
 # **Assembly Recap**
 
@@ -87,7 +91,7 @@ Example:
 `mov rbx, rax` \<=
 rbx = 3
 
-______________________________________________________________________
+---
 
 # **Assembly Recap**
 
@@ -100,7 +104,7 @@ ______________________________________________________________________
 `jle address` Jump if less or equal
 => Based on EFLAGS (special registers)
 
-______________________________________________________________________
+---
 
 # **Assembly Recap**
 
@@ -115,7 +119,7 @@ ret
 Jump to error IF RAX \<= RBX
 Otherwise return from the function
 
-______________________________________________________________________
+---
 
 # **C to assembly**
 
@@ -133,7 +137,7 @@ add rbx, 10  // add 10
 mov rax, rbx // move temp back to x
 ```
 
-______________________________________________________________________
+---
 
 # **C to assembly**
 
@@ -143,12 +147,12 @@ C to asm in the browser: https://godbolt.org/#
 
 ![bg right contain](./figures/hello_world_asm.png)
 
-______________________________________________________________________
+---
 
 Done by https://defuse.ca/online-x86-assembler.htm#disassembly
 ![Alt text](./figures/assembly.png)
 
-______________________________________________________________________
+---
 
 # **Rev 101**
 
@@ -160,7 +164,7 @@ ______________________________________________________________________
 
   - Revertible, Exploitable?
 
-______________________________________________________________________
+---
 
 # **Real world usage**
 
@@ -175,7 +179,7 @@ ______________________________________________________________________
 - Debugging
   ![bg right fit](./figures/keygen.png)
 
-______________________________________________________________________
+---
 
 # **Executables**
 
@@ -186,7 +190,7 @@ ______________________________________________________________________
 - Tells our OS how to load and execute it
 - Contains Imports (Libraries), Exports, Sections, Entrypoint
 
-______________________________________________________________________
+---
 
 # **Tools for executables**
 
@@ -199,7 +203,7 @@ ______________________________________________________________________
 - Windows:
   - CFF Explorer/ Explorer Suite by NTCore
 
-______________________________________________________________________
+---
 
 # **Concepts**
 
@@ -212,7 +216,7 @@ ______________________________________________________________________
 - Sidechannels
 - Symbolic execution
 
-______________________________________________________________________
+---
 
 # **Static analysis**
 
@@ -229,7 +233,7 @@ ______________________________________________________________________
 
   - Turn asm instructions into somewhat readable code
 
-______________________________________________________________________
+---
 
 # **Static tools**
 
@@ -240,7 +244,7 @@ ______________________________________________________________________
   - BinaryNinja: Mix of IDA and Ghidra
     - Especially good for newer languages such as Go and Rust
 
-______________________________________________________________________
+---
 
 # **Static tools cont.**
 
@@ -250,7 +254,7 @@ ______________________________________________________________________
   - Pycdc
     - Disassemble/Decompile python bytecode
 
-______________________________________________________________________
+---
 
 # **Static tools cont.**
 
@@ -260,7 +264,7 @@ ______________________________________________________________________
   - apktool: CLI to decompile/compile apks
   - github/patrickfav/uber-apk-signer: Automatically sign apks
 
-______________________________________________________________________
+---
 
 # **Static tools cont.**
 
@@ -269,7 +273,7 @@ ______________________________________________________________________
   - ILSpy: Same as above
   - github/Droppers/SingleFileExtractor: Extract .NET from native libraries
 
-______________________________________________________________________
+---
 
 # **Dynamic analysis**
 
@@ -282,7 +286,7 @@ ______________________________________________________________________
 - Single stepping / tracing
   - One instruction at a time, print infos
 
-______________________________________________________________________
+---
 
 # **Dynamic tools**
 
@@ -296,7 +300,7 @@ ______________________________________________________________________
   - Inbuilt debuggers of decompilers
     - Supports breaking in pseudocode
 
-______________________________________________________________________
+---
 
 # **Dynamic tools cont.**
 
@@ -311,7 +315,7 @@ ______________________________________________________________________
     - Supports binary debugging
     - Disassembles automatically
 
-______________________________________________________________________
+---
 
 # **"Just run it lmao" - analysis**
 
@@ -325,7 +329,7 @@ ______________________________________________________________________
 
 - Always emulate unknown binaries or use a VM
 
-______________________________________________________________________
+---
 
 # **"Just run it lmao" - done right**
 
@@ -343,7 +347,7 @@ ______________________________________________________________________
   - e.g. Unicorn Engine
   - Lots of manual work
 
-______________________________________________________________________
+---
 
 # **Diffing**
 
@@ -353,12 +357,12 @@ ______________________________________________________________________
   - Find matching functions/patterns
   - See newly added functions
 
-______________________________________________________________________
+---
 
 ![bg contain](./figures/bindiff.png)
 [2]
 
-______________________________________________________________________
+---
 
 # **Patching**
 
@@ -369,7 +373,7 @@ ______________________________________________________________________
 - Used to bypass checks or security
 - What happens if we leak some infos by doing this?
 
-______________________________________________________________________
+---
 
 # **Sidechannels**
 
@@ -380,7 +384,7 @@ ______________________________________________________________________
 - CPU metric attacks
   - perf-tools on Linux
 
-______________________________________________________________________
+---
 
 # **Symbolic execution**
 
@@ -388,7 +392,7 @@ ______________________________________________________________________
 - Find all paths and values that satisfy each branching condition
 - Output inputs that satisfy certain branches
 
-______________________________________________________________________
+---
 
 Given this function, how many paths are there?
 
@@ -404,7 +408,7 @@ int get_sign(int x) {
 }
 ```
 
-______________________________________________________________________
+---
 
 Three branching conditions, which inputs satisfy each path?
 
@@ -419,7 +423,7 @@ int get_sign(int x) {
 }
 ```
 
-______________________________________________________________________
+---
 
 # **Symbolic execution tools**
 
@@ -430,7 +434,7 @@ ______________________________________________________________________
 - manticore (unmaintained)
   - Like angr black box, requires more fine tuning
 
-______________________________________________________________________
+---
 
 # **How2Start**
 
@@ -443,7 +447,7 @@ ______________________________________________________________________
    - Symbolic execution
    - Patching or info leaks?
 
-______________________________________________________________________
+---
 
 # **How2Start cont.**
 
@@ -451,11 +455,11 @@ ______________________________________________________________________
 1. ???
 1. Validate solution
 
-______________________________________________________________________
+---
 
 # **Live demo - cracking**
 
-______________________________________________________________________
+---
 
 ## References
 
