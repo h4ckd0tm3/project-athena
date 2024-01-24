@@ -209,10 +209,7 @@ Abs 2:
 ## **Datenbeschädigung (§ 126a StGB)**
 
 * Schädigung eines anderen durch
-    * Veränderung/Löschung/Unbrauchbarmachen/Unterdrückun 	g
-    * von Daten
-    * die automationsunterstützt verarbeitet/übermittelt/ überlassen
-    * über die der Täter nicht/nicht alleine verfügen darf
+    * Veränderung/Löschung/Unbrauchbarmachen/Unterdrückung von Daten die automationsunterstützt verarbeitet/übermittelt/ überlassen über die der Täter nicht/nicht alleine verfügen darf
 
 ---
 
@@ -252,10 +249,9 @@ Im Familienkreis privilegiert
 
 ## **Störung der Funktionsfähigkeit eines Computersystems (§ 126b StGB)**
 
-* Schwere Störung durch Dateneingabe/Datenübermittlung
-* eines Computersystems, über das der Täter nicht/nicht alleine verfügen darf
+* Schwere Störung durch Dateneingabe/Datenübermittlung eines Computersystems, über das der Täter nicht/nicht alleine verfügen darf
 * Nur wenn nicht Datenbeschädigung (§126a StGB) vorliegt Geschütztes Rechtsgut:
-* Ungestörte Verwendbarkeit des Computersystem
+  * Ungestörte Verwendbarkeit des Computersystem
 
 ---
 
@@ -271,11 +267,11 @@ Im Familienkreis privilegiert
 
 * mehr als 300 000 Euro Schaden
 
-oder
+**oder**
 
 * gegen ein Computersystem verübt, das ein wesentlicher Bestandteil der kritischen Infrastruktur ist
 
-oder
+**oder**
 
 * als Mitglied einer kriminellen Vereinigung
 
@@ -332,7 +328,7 @@ in Bezug auf betrügerischen Datenmissbrauch (§148a StGB):	Freiheitsstrafe von 
 * **Vorsatz:**
   * Unrechtmäßige Bereicherung durch Verwendung 
   
-    oder
+    **oder**
 
   * Fälschung unbarer Zahlungsmittel
 
