@@ -30,7 +30,7 @@ Steps as root:
 	``ùsermod -a -G sudousers <username>
 3. Enter edit mode for the sudo config file:
 	```visudo```
-4. Tell sudo to only allow user in the "sudousers" group to use sudo by adding this line at the end:
+4. Tell sudo to only allow user in the sudousers group to use sudo by adding this line at the end:
 	```%sudousers   ALL=(ALL:ALL) ALL```
 
 #### Su
@@ -42,7 +42,7 @@ Steps as root:
 	```groupadd sudousers```
 2. Add users to the group:
 	``ùsermod -a -G sudousers <username>
-3. Edit who can execute the "su" command:
+3. Edit who can execute the su command:
 	```dpkg-statoverride --update --add root suusers 4750 /bin/su```
 
 #### Enforce Secure Passwords
@@ -78,8 +78,17 @@ Steps as root:
 To check the status of ufw type: ```ufw status numbered```
 To delete some rules: ```ufw delete <number>```
 
+#### Check Logging
 
-# Resources
+The rsyslog service should normally already be running but one should check.
+
+Steps for root:
+1. Check the rsyslog service
+	```systemctl status rsyslog```
+2. Enable the rsyslog service 
+	```systemctl enable rsyslog```
+
+## Resources
 
 - https://www.cisecurity.org/
 - https://firejail.wordpress.com/

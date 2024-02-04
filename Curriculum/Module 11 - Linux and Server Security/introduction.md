@@ -12,8 +12,8 @@ This module will provide an in-depth understanding of Linux and server security.
 ## Topics Covered
 
 1. Introduction to Linux Security
-1. Hardening Linux-Based Operating Systems and Servers
-1. Local Privilege Escalation Techniques
-1. GTFO Bins
+2. Hardening Linux-Based Operating Systems and Servers
+3. Local Privilege Escalation Techniques
+4. GTFO Bins
 
 By the end of this module, students should have a strong understanding of Linux and server security, and be able to apply best practices to secure their systems effectively.
