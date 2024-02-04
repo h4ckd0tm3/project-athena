@@ -42,7 +42,7 @@ Sometimes file permissions are misconfigured, giving the attacker access to file
 
 The same applies to misconfigured credentials, giving the attacker access to passwords and keys that they shouldn't have
 
-- Plaintext creds (hardcoded creds in scripts)
+- Plaintext creds (hardcoded creds in scripts).
 - SSH-Keys (/home/user/.ssh/id rsa)
 - Bash history (/home/user/.bash history)
 

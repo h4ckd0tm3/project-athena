@@ -39,9 +39,9 @@ Disk encryption means that someone can’t take the disks out of the machine and
 
 The following topics aim to enhance the security of a server by implementing a series of measures aimed at reducing vulnerabilities and minimizing potential attack surfaces on an OS level:
 
-### Booloader (Grub)
+### Bootloader (Grub)
 
-To ensure that a user cannot change the kernel or distribution, it is recommended to change access to the bootloader config files. To completely further a boot into another OS on the computer, the bios should have a admin password set.
+To ensure that a user cannot change the kernel or distribution, it is recommended to change access to the bootloader config files. To completely thwart a boot into another OS on the computer, the bios should have a admin password set.
 
 Steps for root for grub:
 1. Set the owner and group of ```/etc/grub.conf and /etc/grub.d``` or in some cases ```/etc/default/grub```
@@ -67,7 +67,7 @@ Steps for root:
 
 #### Kernel pointer
 
-A kernel pointer is basically a way of exposing kernel address via /proc and other interfaces. By setting the kernel.kptr_restrict to 1, all kernel pointers are when printed, are replaces with 0s. 
+A kernel pointer is basically a way of exposing kernel address via /proc and other interfaces. By setting the kernel.kptr_restrict to 1, all kernel pointers are when printed, are replaced with 0s. 
 
 Steps for root:
 1. Restrict access to the kernel pointers in the sysctl.d config files
@@ -75,7 +75,7 @@ Steps for root:
 
 #### Exec Shield
 
-Exec Shield is a project that has it's origins at Red Hat. It was developed in late 2002 with the aim of reducing the risk of worms or other automated remote attacks on Linux systems. It attempts to flag data memory as non-executable and program memory as non-writable, therefore suppressing many security exploits such as buffer overflows or other techniques relying on overwriting data and inserting code.
+Exec Shield is a project that has its origins at Red Hat. It was developed in late 2002 with the aim of reducing the risk of worms or other automated remote attacks on Linux systems. It attempts to flag data memory as non-executable and program memory as non-writable, therefore suppressing many security exploits such as buffer overflows or other techniques relying on overwriting data and inserting code.
 
 Steps for root:
 1. Enable Exec Shield in the sysctl.d config files
@@ -91,7 +91,7 @@ Steps for root:
 
 ### Config SELinux
 
-A incredible crucial setting is to enforce the SELinux rules. SELinux stands for Security-Enchanced Linux and is a kernel securtity module. It has been integrated into various distributions but is set to only warn the user upon a rule violation.
+A incredibly crucial setting is to enforce the SELinux rules. SELinux stands for Security-Enhanced Linux and is a kernel security module. It has been integrated into various distributions but is set to only warn the user upon a rule violation.
 
 Steps as root:
 1. Change the ```SELINUXTYPE```in```/etc/selinux/config```

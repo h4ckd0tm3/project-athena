@@ -2,7 +2,7 @@
 
 ## What is that?
 
-GTFO Bins is a website that gives you options and commands that you can execute in the terminal, depending on which binary you have access on a Linux machine to give you a access to a higher privileged user.
+GTFO Bins is a website that gives one options and commands that one can execute in the terminal, depending on which binary one has access on a Linux machine to give one access to a higher privileged user.
 
 ## How does the website work?
 
