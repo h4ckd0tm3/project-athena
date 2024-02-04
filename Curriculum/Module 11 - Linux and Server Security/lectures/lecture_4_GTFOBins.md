@@ -12,3 +12,7 @@ The website greets the user with a searchbar that can be used to search for a bi
 Upon clicking on a option the website will show a list of commands and their functions.
 
 The website also offers the option to filter for certain functions, so that only binaries with those are displayed.
+
+## Resources
+
+- https://gtfobins.github.io/

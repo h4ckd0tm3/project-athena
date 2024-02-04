@@ -109,6 +109,8 @@ There are many tools that can automate this task in the background, like:
 - [GTFOBins](https://gtfobins.github.io/) - Privesc via sudo/suid binaries
 - [HackTricks](https://book.hacktricks.xyz/linux-hardening/privilege-escalation) - Checklists and information
 
-## Credits
+## Resources
 
-This lecture is based on a presentation from [chr0x6eos](https://github.com/chr0x6eos).
+- This lecture is based on a presentation from [chr0x6eos](https://github.com/chr0x6eos).
+- https://delinea.com/blog/linux-privilege-escalation
+- https://book.hacktricks.xyz/linux-hardening/privilege-escalation

@@ -157,3 +157,9 @@ Application logs should be aggregated remotely to ensure that they can’t be al
 
 Most applications have a large number of software libraries and dependencies, any of which might have security vulnerabilities – all components need to be kept patched and up to date.
 
+## Resources
+
+- https://www.cyberciti.biz/tips/linux-security.html
+- https://www.netwrix.com/linux_hardening_security_best_practices.html
+- https://linuxsecurity.expert/checklists/linux-security-and-system-hardening
+- https://ubuntu.com/blog/what-is-system-hardening-definition-and-best-practices
