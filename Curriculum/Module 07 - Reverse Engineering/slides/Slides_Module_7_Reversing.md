@@ -1,11 +1,12 @@
 ---
 marp: true
-theme: project-athena
+theme: gaia
+class: invert
 paginate: true
 _paginate: false
 title: Module 07 - Reversing
 header: Module 07 - Reversing
-footer: More on [@h4ckd0tm3/project-athena](https://github.com/h4ckd0tm3/project-athena/)
+footer: Sebastian Felix
 ---
 
 # **Reverse Engineering 101**
