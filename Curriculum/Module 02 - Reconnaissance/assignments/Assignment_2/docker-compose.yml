@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  webserver:
+    image: nginx:latest
+    ports:
+      - "8080:80"
+    networks:
+      - recon-network
+
+  ssh:
+    image: rastasheep/ubuntu-sshd:latest
+    ports:
+      - "2222:22"
+    networks:
+      - recon-network
+
+  ftp:
+    image: stilliard/pure-ftpd:hardened
+    ports:
+      - "21:21"
+    networks:
+      - recon-network
+
+  database:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+    ports:
+      - "3306:3306"
+    networks:
+      - recon-network
+
+  vulnerable-webserver:
+    build: .
+    ports:
+      - "17334:80"
+    networks:
+      - recon-network
+
+networks:
+  recon-network:
+    driver: bridge
