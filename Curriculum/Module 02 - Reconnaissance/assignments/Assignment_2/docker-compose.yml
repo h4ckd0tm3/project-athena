@@ -2,14 +2,15 @@ version: '3.8'
 
 services:
   webserver:
-    image: nginx:latest
+    image: docker.io/library/nginx:latest
     ports:
       - "8080:80"
     networks:
       - recon-network
 
   ssh:
-    image: rastasheep/ubuntu-sshd:latest
+    build:
+      dockerfile: ssh.Dockerfile
     ports:
       - "2222:22"
     networks:
@@ -17,22 +18,27 @@ services:
 
   ftp:
     image: stilliard/pure-ftpd:hardened
+    environment:
+      FTP_USER_NAME: recon_ftp_user
+      FTP_USER_PASS: 9QkqOinPZfiuGEFo
     ports:
-      - "21:21"
+      - "2100:21"
     networks:
       - recon-network
 
   database:
-    image: mysql:latest
+    image: docker.io/library/mysql:latest
     environment:
-      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_ROOT_PASSWORD: kKkszlICX5GRd2JaCwyl
+      MYSQL_USER: recon_db_user
     ports:
       - "3306:3306"
     networks:
       - recon-network
 
   vulnerable-webserver:
-    build: .
+    build:
+      dockerfile: vuln.Dockerfile
     ports:
       - "17334:80"
     networks:
