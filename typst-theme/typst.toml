@@ -1,0 +1,11 @@
+[package]
+name = "athena-typst-theme"
+version = "1.0.0"
+entrypoint = "./athena-polylux.typ"
+authors = ["h4ckd0tm3"]
+description = "Athena Typst Theme"
+
+[template]
+path = "./"
+entrypoint = "main.typ"
+
