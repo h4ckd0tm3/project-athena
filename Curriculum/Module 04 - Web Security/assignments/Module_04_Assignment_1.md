@@ -9,7 +9,7 @@ The purpose of this assignment is to hone your hands-on skills in web security b
 #### 1. **Selection of Labs:**
 
 - Visit [PortSwigger's Web Security Academy](https://portswigger.net/web-security/all-labs).
-- From the list of categories, select at least two labs from five categories that you find intriguing or challenging. (10 Labs total)
+- From the list of categories, select at least two labs ("PRACTITIONER" or higher) from five categories that you find intriguing or challenging. (10 Labs total)
 - Begin each lab by thoroughly reading the provided instructions and understanding the objectives.
 
 #### 2. **Lab Completion:**
