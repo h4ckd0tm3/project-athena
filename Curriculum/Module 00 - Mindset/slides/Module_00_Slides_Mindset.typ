@@ -56,3 +56,8 @@
 #slide(title: "")[
 ]
 #set page(background: none)
+
+#title-slide(
+  title: [Module 00: Mindset],
+  subtitle: [Introduction to the Offensive Security Mindset],
+)
